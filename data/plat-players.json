@@ -1,0 +1,68 @@
+{
+    "player": {
+        "carti": {
+            "121160537": {
+                "video": "https://www.facebook.com/groups/173396940046034/posts/1643918159660564",
+                "completion_date": "2025-06-17",
+                "completion_time": 126.383,
+                "is_mobile": false
+            },
+            "121301681": {
+                "video": "https://www.facebook.com/groups/173396940046034/posts/1645248736194173/?comment_id=1645359809516399",
+                "completion_date": "2025-06-20",
+                "completion_time": 16.341,
+                "is_mobile": false
+            },
+            "121879236": {
+                "video": "https://www.facebook.com/groups/173396940046034/posts/1651415638910816/?comment_id=1651440802241633",
+                "completion_date": "2025-06-28",
+                "completion_time": 19.537,
+                "is_mobile": false
+            }
+        },
+        "超大法國麵包🥖": {
+            "121301681": {
+                "video": "https://www.facebook.com/share/v/167aTEicfn/",
+                "completion_date": "2025-06-19",
+                "completion_time": 16.825,
+                "is_mobile": false
+            },
+            "121879236": {
+                "video": "https://www.facebook.com/groups/173396940046034/posts/1651415638910816?comment_id=1651457705573276",
+                "completion_date": "2025-06-28",
+                "completion_time": 12.704,
+                "is_mobile": false
+            }
+        },
+        "anan111🛺": {
+            "121301681": {
+                "video": "https://www.facebook.com/groups/173396940046034/posts/1645248736194173/?comment_id=1645287559523624",
+                "completion_date": "2025-06-19",
+                "completion_time": 16.241,
+                "is_mobile": false
+            },
+            "121879236": {
+                "video": "https://www.facebook.com/share/v/19Q6HC95b5/",
+                "completion_date": "2025-06-30",
+                "completion_time": 9.945,
+                "is_mobile": false
+            }
+        },
+        "relloo": {
+            "121879236": {
+                "video": "https://www.facebook.com/share/v/1Ky4hdn4kv/",
+                "completion_date": "2025-06-28",
+                "completion_time": 0,
+                "is_mobile": false
+            }
+        },
+        "蔡龍": {
+            "121879236": {
+                "video": "https://www.facebook.com/reel/702958122361400",
+                "completion_date": "2025-07-01",
+                "completion_time": 16.375,
+                "is_mobile": false
+            }
+        }
+    }
+}
