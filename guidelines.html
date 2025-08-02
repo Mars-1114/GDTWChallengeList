@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv='cache-control' content='no-cache'> 
+  <meta http-equiv='expires' content='0'> 
+  <meta http-equiv='pragma' content='no-cache'>
+  <title>GDTW Demonlist</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="resource/icon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,500,1,0">
+  <base target="_blank">
+</head>
+
+<body>
+  <!-- Select Menu -->
+  <div id="menuContainer"></div>
+  <!--content-->
+  <div class="content" style="opacity:100%; top:0">
+    <h3>一、新增挑戰：</h3>
+    <ol>
+      <li>
+        創作者為臉書社團「<a class="link"  href="https://www.facebook.com/share/g/1AxhwLuQVs/">幾何衝刺台灣遊玩討論區</a>」(下簡稱社團) 之社員。
+        <ul style="list-style-type: disc;">
+          <li>如為合作關卡，則主要創作者須為<b>社團之社員</b>。</li>
+        </ul>
+      </li>
+      <li>驗證人須以符合<b>玩家規範 (第三條) </b>之方式驗證該挑戰。</li>
+      <li>挑戰須可在<b>原版 (2.2, Vanilla) 遊戲</b>通關。</li>
+      <li><strong>不允許</strong>在關卡內放置<b>輕點</b> (Swift Click，在<b>一幀內</b>做出點擊與放開的操作)。</li>
+      <li><strong>不允許</strong><b>Minigame</b>類型的挑戰。</li>
+      <li><b>隱藏角色</b>或<b>Gameplay</b>僅允許做特效使用。</li>
+      <li>如挑戰內有<b>隨機元素</b> (含偽隨機) 或<b>Persistent Item</b>，其不應明顯影響難度，即每一Attempt的難度必須大致相同且皆能通關。</li>
+      <li>
+        欲新增之<b>Classical</b>挑戰須符合以下條件：
+        <ol style="list-style-type: lower-roman;">
+          <li>對於<strong>所有</strong>路線，通關該挑戰之所需時長低於<b>30秒</b></li>
+          <li>對於任連續3個點擊之<b>平均CPS</b><strong>不得</strong>超過<b>10</b></li>
+        </ol>
+      </li>
+      <li>
+        欲新增之<b>Platformer</b>挑戰須符合以下條件：
+        <ol style="list-style-type: lower-roman;">
+          <li>通關該挑戰之<b>預估時長</b> (在關卡目錄顯示之遊玩時間) 低於<b>60秒</b></li>
+          <li>對於任連續3個點擊之<b>平均CPS</b><strong>不得</strong>超過<b>10</b></li>
+          <li>關卡內<strong>無</strong>紀錄點，但在關卡開頭轉場後放置<b>一個</b>紀錄點可被允許</li>
+        </ol>
+      </li>
+      <li>
+        欲新增之<b>Spam</b>挑戰須符合以下條件：
+        <ol style="list-style-type: lower-roman;">
+          <li>CPS需大於<b>10</b></li>
+          <li>挑戰應以<b>spam</b>為主，但可在開頭或結尾放置非spam的玩法</li>
+          <li><strong>不允許</strong>考驗<b>點擊規律 (consistency) </b>之挑戰</li>
+          <li>對於<strong>所有</strong>路線，通關該挑戰之所需時長低於<b>30秒</b></li>
+        </ol>
+      </li>
+      <li>
+        <b>修改 / 擷取 / 延長</b>他人的關卡，皆須經過<b>原創作者</b>的同意。
+        <ul style="list-style-type: disc;">
+          <li>原創作者保有撤銷同意的權利。</li>
+          <li>若該挑戰修改自其他<b>已在榜上之挑戰</b>，且通過之給予欲遊玩新挑戰的玩家明顯優勢，則僅會將較<b>難</b>的挑戰保留於榜上。此項規定<strong>不適用</strong>於Spam挑戰。</li>
+        </ul>
+      </li>
+      <li>
+        創作者可要求通關人以<b>指定FPS區間</b>遊玩，但須證明其可用該FPS區間通關。
+        <ul style="list-style-type: disc;">
+          <li>若已發布，且該挑戰限制下述FPS任一：<b>60, 144, 240, 288, 300, 360</b>，則須重新驗證。</li>
+        </ul>
+      </li>
+      <li>
+        若在關卡發布後，發現到未被修正的<b>secret way</b>，創作者得在不影響原路線難度的情況下封路，且無需重新驗證。
+      </li>
+      <li>如違反上述條件，且事態嚴重或屢次違反，該玩家將<strong>永久禁止新增關卡</strong>。</li>
+    </ol>
+    <h3>二、上傳成績：</h3>
+    <ol>
+      <li>只有<b>社團之社員</b>才能登錄成績。</li>
+      <li>
+        有二種途徑可以提交紀錄至榜上：
+        <ol style="list-style-type: lower-roman">
+          <li>在社團發布貼文 / 連結</li>
+          <li>填寫<a class="link" href="https://forms.gle/kFVaQQ7cieDdPzMY7">表單</a></li>
+        </ol>
+      </li>
+      <li>
+        欲登錄紀錄者，需附上<b>完整通關影片</b>。
+        <ol style="list-style-type: lower-roman">
+          <li>
+            對於<b>Classical</b>及<b>Spam</b>挑戰：
+            <ul style="list-style-type: disc">
+              <li>須包含自<strong>前次嘗試之死亡</strong>、<b>角色重生</b>至<strong>完全彈出通關視窗</strong>之錄影。</li>
+              <li>若玩家於<b>首次嘗試</b>即通關，則需包含<b>進入關卡</b>之片段。</li>
+            </ul>
+          </li>
+          <li>
+            對於<b>Platformer</b>挑戰：
+            <ul style="list-style-type: disc">
+              <li>須包含<strong>所有記錄點</strong>之通過片段。</li>
+              <li>每個片段須包含<strong>前次嘗試之死亡</strong>至<b>碰觸下個紀錄點</b>或<b>完全彈出通關視窗</b>之過程。</li>
+              <li>若玩家於<b>首次嘗試</b>即通關，則需包含<b>進入關卡</b>或<b>紀錄點</b>之片段。</li>
+            </ul>
+          </li>
+        </ol>
+        <ul style="list-style-type: square">
+          <li>提供<b>原始 (未剪輯) 錄影檔</b>與<b>點擊聲</b><strong>非</strong>強制性要求</li>
+        </ul>
+      </li>
+      <li>
+        證明影片需滿足以下條件：
+        <ol style="list-style-type: lower-roman">
+          <li>遊玩畫面清晰可見，且無裁切或遮擋螢幕</li>
+          <li>
+            上傳於<b>可被社團內所有人檢視</b>之網站，包含但不限於：
+            <ul style="list-style-type: disc">
+              <li>本社社團</li>
+              <li>YouTube</li>
+              <li>BiliBili</li>
+              <li>Twitch (限精華)</li>
+            </ul>
+            <ul style="list-style-type: square">
+              <li style="color: var(--text-highlight-important)">不接受上傳至色情網站之影片</li>
+            </ul>
+          </li>
+          <li>
+            若該挑戰有<b>FPS限制</b>，須在螢幕上顯示FPS
+            <ul style="list-style-type: disc;">
+              <li><b>iOS</b>玩家不在此限</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <h3>三、玩家規範：</h3>
+    <ol>
+      <li>
+        以下行為在本榜被<strong>禁止</strong>：
+        <ol style="list-style-type: lower-roman">
+          <li>
+            使用<b>外掛</b>及<b>模組</b>來進行利於通關的行為，包含但不限於：
+            <ul style="list-style-type: disc">
+              <li>NoClip - 傷害無視</li>
+              <li>Speedhack - 調整速度</li>
+              <li>Show Hitboxes - 顯示碰撞箱</li>
+              <li>Hitbox Multiplier - 縮放碰撞箱</li>
+              <li>Bot - 使用預錄點擊遊玩</li>
+            </ul>
+            於第<b>2</b>點允許之模組則不在此限。
+          </li>
+          <li>自行調整<b>關卡難度</b>，如刪刺 / 移動障礙物等</li>
+          <li>盜用他人影片</li>
+          <li>在Classical關卡或Platformer關卡內任一紀錄點中以<b>拼接影片</b>之形式證明</li>
+          <li>
+            <b>多人共用</b>同一社團帳號，或一人使用<b>多個社團帳號</b>來登錄成績
+            <ul style="list-style-type: disc">
+              <li>此情形包含<b>代替該玩家通關</b></li>
+            </ul>
+          </li>
+          <li>在<b>Spam</b>挑戰中使用手指以外之工具或方式遊玩，或使用多於四根手指進行點擊</li>
+          <li>在<b>Platformer</b>挑戰傳送至或起始於某存檔點</li>
+          <li>
+            使用<b>Smooth Fix</b>功能來刻意減緩關卡速度
+            <ul style="list-style-type: disc">
+              <li>若無大幅影響關卡速度則仍可使用</li>
+            </ul>
+          </li>
+          <li>使用明顯非設計之路線 (<b>Secret Way</b>) 通關</li>
+          <li>遊玩該關之<b>舊版本</b></li>
+        </ol>
+        <ul style="list-style-type: square">
+          <li>違反上述 <b>i. ~ vii.</b> 任一項且欺瞞其行為者，將會被<strong>永久禁止登錄成績</strong>並<strong>將其先前所登錄之成績刪除</strong></li>
+        </ul>
+      </li>
+      <li>
+        以下行為在本榜被<strong style="color: var(--text-highlight-allow)">允許</strong>：
+        <ol style="list-style-type: lower-roman">
+          <li>
+            使用以下外掛或模組：
+            <ul style="list-style-type: disc">
+              <li>Click Between Frames</li>
+              <li>
+                FPS/TPS Bypass
+                <ul style="list-style-type: disc;">
+                  <li>限使用<b>60 ~ 360</b>之間</li>
+                </ul>
+              </li>
+              <li>0% Practice Complete</li>
+              <li>Show Hitboxes on Death</li>
+              <li>Deathlink</li>
+            </ul>
+          </li>
+          <li>在<b>練習模式</b>下自起點無傷通關</li>
+        </ol>
+      </li>
+      <li>
+        若玩家通關於關卡之<b>複本</b>，須遵守以下規定：
+        <ol style="list-style-type: lower-roman">
+          <li>
+            <strong>不可</strong>自行調整關卡難度，如刪刺 / 移動障礙物等。
+          </li>
+          <li>如為<b>自製LDM</b>，其不應大幅影響難度，如刪除遮擋玩家之裝飾。</li>
+        </ol>
+        <ul style="list-style-type: square;">
+          <li>若不確定該複本之有效性，可事先與管理員確認後，方可使用。</li>
+        </ul>
+      </li>
+      <li>若為<b>2-Player</b>挑戰，亦須為單人通關</li>
+      <li>紀錄須在遊戲<b>目前版本<strong>或</strong>該關卡驗證時之版本</b>通關。</li>
+    </ol>
+    <h3>四、關卡意見回饋：</h3>
+    <ol>
+      <li>玩家在通過挑戰後，可向管理員提供該關之意見回饋，以供難度排名與細項使用 (非強制) 。</li>
+      <li>
+        對於所有挑戰，通關者可提供以下意見：
+        <ol style="list-style-type: lower-latin;">
+          <li><b>排名</b> - 該挑戰在榜上的名次，可為一數值或區間</li>
+          <li>
+            <b>可玩度</b> - 該挑戰之好玩程度，介於<b>0 ~ 10</b>之間
+            <ul style="list-style-type: disc;">
+              <li style="color: var(--text-highlight-important)">注意5分代表「<strong>無特別好玩或特別不好玩</strong>」</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+      <li>
+        對於<b>Classical</b>挑戰，通關者可提供以下意見：
+        <ul style="list-style-type: square;">
+          <li>此部分評分皆介於<b>0 ~ 5</b>之間，其中<b>0分</b>代表該面向難度低於<b>Extreme Demon</b>，<b>5分</b>代表該面向難度達到<a class="link" href="https://challengelist.gd/challenges">官方Challenge List</a>。</li>
+        </ul>
+        <ol style="list-style-type: lower-latin;">
+          <li><b>Timing</b> - 對於<b>點擊時機精準度</b>具要求之Gameplay</li>
+          <li><b>Ship</b> - 對於<b>Ship操控技巧</b>具要求之Gameplay</li>
+          <li><b>Wave</b> - 對於<b>Wave操控技巧</b>具要求之Gameplay</li>
+          <li><b>Swing</b> - 對於<b>Swing操控技巧</b>具要求之Gameplay</li>
+          <li><b>CPS</b> - 對於<b>點擊速度</b>具要求之Gameplay</li>
+          <li><b>Learny</b> - 該挑戰<b>好不好學</b></li>
+        </ol>
+      </li>
+      <li>
+        對於<b>Platformer</b>挑戰，通關者可提供以下意見：
+        <ul style="list-style-type: square;">
+          <li>此部分評分皆介於<b>0 ~ 5</b>之間，其中<b>0分</b>代表該面向難度低於<b>Extreme Demon</b>，<b>5分</b>代表該面向難度達到<a class="link" href="https://platformer-challenge-list.pages.dev/#">官方Platformer List</a>。</li>
+        </ul>
+        <ol style="list-style-type: lower-latin;">
+          <li><b>Precision</b> - 對於<b>定位精準度</b>具要求之Gameplay</li>
+          <li><b>Ship</b> - 對於<b>Ship操控技巧</b>具要求之Gameplay</li>
+          <li><b>Speed</b> - 對於<b>時間控制</b>具要求之Gameplay</li>
+          <li><b>Learny</b> - 該挑戰<b>好不好學</b></li>
+        </ol>
+      </li>
+      <li>
+        對於除排名外之各項分數，會依所有提供意見之通關人以加權平均計算，加權方式如下：
+        <ol style="list-style-type: lower-roman;">
+          <li>所有通關人之預設權重皆為<b>1</b></li>
+          <li>若其為<b>驗證人</b>，其權重乘以<strong>0.75</strong></li>
+          <li>若其於榜上之紀錄數量 (含Legacy挑戰) <b>低於3</b>，其權重乘以<strong>0.5</strong></li>
+          <li>若其於榜上之紀錄數量 (含Legacy挑戰) <b>高於10</b>，其權重乘以<b>1.2</b></li>
+        </ol>
+      </li>
+    </ol>
+    <h3>五、紀錄形式：</h3>
+    <ol>
+      <li>
+        <b>關卡</b>榜排序規則：
+        <ol style="list-style-type: lower-roman">
+          <li><b>Classical</b>與<b>Platformer</b>挑戰會列出<b>前30名</b>，<b>Spam</b>挑戰會列出<b>前10名</b></li>
+          <li>
+            排序依據主要由通關者提供意見回饋。
+          </li>
+          <li>
+            通過一挑戰會給予玩家相對應之積分，由該關之<b>排名</b>及列表<b>總關卡數</b>決定。積分算法設計標準為：
+            <ul style="list-style-type: disc">
+              <li>通過列表<b>最難</b>關卡會給予<b>200</b>分</li>
+              <li>通過列表<b>最簡單</b>關卡會給予<b>10</b>分</li>
+              <li>通過Legacy挑戰不給予分數</li>
+            </ul>
+            公式如下，四捨五入至小數第二位：
+            <div style="overflow-x: auto">
+              $$分數=\frac{82.707}{1.02^{N-50}}-14.7396，其中N=\frac{150-1}{總關卡數-1}\times(挑戰排名-1)+1$$
+            </div>
+            或可參考此<a class="link" href="https://www.desmos.com/calculator/3dmkunij9m">圖表</a>。
+          </li>
+          <li>
+            通過一挑戰之玩家會列於該關清單內。若有二名以上玩家通過同一挑戰，會依下列標準作排序：
+            <ol style="list-style-type: lower-latin">
+              <li>
+                證明影片上傳時間
+                <ul style="list-style-type: disc;">
+                  <li>如為<b>Platformer</b>榜，則以<b>通關時長</b>做比較</li>
+                </ul>
+              </li>
+              <li>玩家名稱之<b>字母排序</b></li>
+            </ol>
+            <li>若該玩家為<b>驗證者</b>，其顏色會標註<b>藍色</b></li>
+            <ul style="list-style-type: square">
+              <li>若使用<b>手機</b>通關之玩家，在記錄旁會註記 <img src="resource/img/mobile.png" height="20px" style='position: relative; top: 4px;'></li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+      <!-- TODO : CHALLENGE PACK -->
+      <li>
+        <b>玩家</b>榜排序規則：
+        <ol style="list-style-type: lower-roman">
+          <li>
+            <b>玩家排名</b>依下列標準作排序 :
+            <ol style="list-style-type: lower-latin">
+              <li>獲得之分數<b>總分</b></li>
+              <li>通關之最難挑戰<b>排名</b></li>
+              <li>通關之挑戰<b>數量</b></li>
+              <li>
+                通關最難挑戰之證明影片<b>上傳時間</b>
+                <ul style="list-style-type: disc;">
+                  <li>如為<b>Platformer</b>榜，則以<b>通關時長</b>做比較</li>
+                </ul>
+              </li>
+              <li>玩家名稱之<b>字母排序</b></li>
+            </ol>
+          </li>
+          <li>
+            玩家所過之挑戰會依據<b>難度</b>由上而下排序：
+            <li>若該玩家為該挑戰之<b>驗證者</b>，其顏色會標註<b>藍色</b></li>
+            <ul style="list-style-type: square">
+              <li>若使用<b>手機</b>通關之玩家，在記錄旁會註記 <img src="resource/img/mobile.png" height="20px" style='position: relative; top: 4px;'></li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <h3>六、審核與通知：</h3>
+    <ol>
+      <li>
+        提交紀錄之審核時長約落於<b>一至三日</b>內，新增挑戰之審核時長通常會花更久。
+      </li>
+      <li>若該玩家並未列於榜中，管理員會於社團內之<a class="link" href="https://www.facebook.com/groups/173396940046034/permalink/777655116286877">榜單公告貼文</a>下標註該玩家通知其上榜。</li>
+      <li>
+        若提交的紀錄有違規之疑慮，管理員會通知該玩家並請求其提供更詳細的證明，如：
+        <ul style="list-style-type: disc">
+          <li>原始 (未剪輯) 錄影檔</li>
+          <li>更清晰的錄影檔</li>
+        </ul>
+      </li>
+    </ol>
+    <h3>七、紀錄移除：</h3>
+    <ol>
+      <li>
+        一紀錄之移除可能為下列原因所導致：
+        <ol style="list-style-type: lower-roman">
+          <li>該挑戰被移至<b>Legacy List</b>或違反<b>新增挑戰 (第一條) </b></li>
+          <li>玩家違反規定<b>三.1</b>、<b>三.3</b>、<b>三.4</b>，或<b>三.5</b></li>
+          <li>玩家經規定<b>八.2</b>請求移除</li>
+          <li><b>證明影片連結</b>因故無法被社團內所有人檢視</li>
+          <li>該關卡經更新後難度<b>顯著提升</b></li>
+        </ol>
+        <ul style="list-style-type: square">
+          <li>社員退社<strong>不會</strong>使其紀錄被刪除。</li>
+        </ul>
+      </li>
+      <li>
+        被移除後之關卡會移至<b>Legacy List</b>作保存，且該關不會再接受新的紀錄。
+        <ul style="list-style-type: disc">
+          <li>原紀錄持有者仍會顯示於該關內列表。</li>
+          <li>若該關難度被升至<b>Extreme Demon</b>，且持續至少<b>5天</b>後，其會重返回關卡榜上。</li>
+        </ul>
+      </li>
+    </ol>
+    <h3>八、玩家資料修改：</h3>
+    <ol>
+      <li>
+        玩家上榜後，可向管理員請求對下列資料進行新增、修改或移除：
+        <ol style="list-style-type: lower-roman">
+          <li>玩家名稱 <strong>(必留)</strong></li>
+          <li>
+            玩家連結
+              <ul style="list-style-type: disc">
+                <li>此包含<b>GD</b>、<b>YouTube</b>以及<b>社團</b>帳號。</li>
+                <li>亦可更改GD帳號顯示之<b>icon</b>。</li>
+              </ul>
+          </li>
+          <li>證明影片連結 <strong>(必留)</strong></li>
+          <li>各項意見回饋</li>
+        </ol>
+      </li>
+      <li>
+        玩家亦可提出刪除部分或全部紀錄之請求。
+        <ul style="list-style-type: disc">
+          <li>此行為不會對該玩家未來重新提交紀錄造成影響。</li>
+        </ul>
+      </li>
+    </ol>
+    <h3>九、其它：</h3>
+    <ol>
+      <li>本網站之規定以<b>不溯及既往</b>為原則，並套用至未來增訂之規則。</li>
+      <li>此規則<strong>僅</strong>適用於本網站，不影響社團內之運作。</li>
+      <li>如有任何問題，歡迎在社團訊問或私訊管理員。</li>
+    </ol>
+    <h3>附錄A：更換歌曲教學</h3>
+    <p>
+      有一些挑戰使用了不在Newgrounds或是Music Library的歌 (簡稱 <b style="color:var(--text-highlight)">NONG</b> )，而使用這些歌需要藉由模組協助或是直接替換檔案的方式來達成。
+      這個附錄會教你如何在遊戲中使用NONG。
+    </p>
+    <ol>
+      <li>
+        <b>電腦玩家</b> (Windows / Mac)
+        <ol style="list-style-type: lower-latin;">
+          <li>
+            使用模組「<b>Jukebox</b>」：
+            <ul style="list-style-type: square">
+              <li>若尚未安裝<a class="link" href="https://geode-sdk.org/install">Geode</a>，請先至該網頁安裝。</li>
+            </ul>
+            <ol style="list-style-type: lower-roman;">
+              <li>
+                在Geode目錄內，搜尋「<b>Jukebox</b>」
+                <img class="guideline_img"  src="resource/img/guideline_img2.jpeg">
+              </li>
+              <li>
+                在關卡目錄中，點擊歌曲欄位左上角的唱片按鈕。接著，點擊右下角的新增歌曲
+                <img class="guideline_img"  src="resource/img/guideline_img3.jpeg">
+              </li>
+              <li>選擇你要使用的歌曲匯入即可</li>
+            </ol>
+          </li>
+          <li>
+            替換檔案：
+            <ol style="list-style-type: lower-roman;">
+              <li>
+                開啟遊戲儲存音樂的資料夾
+                <ul style="list-style-type: disc;">
+                  <li>Windows - <b>%LocalAppData%/GeometryDash</b></li>
+                  <li>Mac - <b>~/library/Caches</b></li>
+                </ul>
+              </li>
+              <li>將要使用的歌曲名稱改為欲替換的歌曲<b>ID</b>，取代後即可</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <b>手機玩家</b> (Android)
+        <ol style="list-style-type: lower-latin;">
+          <li>使用模組「<b>Jukebox</b>」：</li>
+          <ul style="list-style-type: square;">
+            <li>步驟與電腦相同。</li>
+          </ul>
+        </ol>
+      </li>
+    </ol>
+  </div>
+  <br>
+  <!-- End -->
+  <div>
+    <address>
+      Website by Mars
+    </address>
+  </div>
+  <span id="scroll-to-top">
+    <span class="material-symbols-outlined">
+      vertical_align_top
+    </span>
+    <p style="margin: 0"><b>TOP</b></p>
+  </span>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="code/menu.js"></script>
+  <script src="code/cookie.js"></script>
+</body>
+
+</html>
