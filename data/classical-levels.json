@@ -359,25 +359,6 @@
             ]
         },
         {
-            "name": "Dash Tutorial",
-            "id": 80474018,
-            "song": {
-                "nong": false,
-                "name": "Cycles",
-                "artist": "DJVI",
-                "id": 8
-            },
-            "creator": [
-                "Mars"
-            ],
-            "verifier": "Mars",
-            "version": 2.1,
-            "length": 14,
-            "tags": [
-                "SWIFT"
-            ]
-        },
-        {
             "name": "Probably Straight",
             "id": 115651663,
             "song": {
@@ -1122,6 +1103,25 @@
             "length": 3,
             "tags": [
                 "60 FPS"
+            ]
+        },
+        {
+            "name": "Dash Tutorial",
+            "id": 80474018,
+            "song": {
+                "nong": false,
+                "name": "Cycles",
+                "artist": "DJVI",
+                "id": 8
+            },
+            "creator": [
+                "Mars"
+            ],
+            "verifier": "Mars",
+            "version": 2.1,
+            "length": 14,
+            "tags": [
+                "SWIFT"
             ]
         },
         {

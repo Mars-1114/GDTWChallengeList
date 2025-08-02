@@ -6,13 +6,13 @@
                 "completion_date": "2025-04-06",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
+                    "enjoyment": 6,
+                    "wave": 5,
                     "ship": 0,
                     "swing": 0,
                     "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "cps": 5,
+                    "learny": 3
                 }
             },
             "115006465": {
@@ -20,13 +20,13 @@
                 "completion_date": "2025-02-10",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
+                    "enjoyment": 7,
+                    "wave": 4.5,
                     "ship": 0,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 1,
+                    "cps": 4,
+                    "learny": 3
                 }
             },
             "119733585": {
@@ -34,13 +34,13 @@
                 "completion_date": "2025-05-28",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
+                    "enjoyment": 7,
+                    "wave": 5,
                     "ship": 0,
                     "swing": 0,
                     "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "cps": 4,
+                    "learny": 4
                 }
             },
             "115154336": {
@@ -48,13 +48,13 @@
                 "completion_date": "2025-02-15",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
+                    "enjoyment": 8,
+                    "wave": 5,
                     "ship": 0,
                     "swing": 0,
                     "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "cps": 5,
+                    "learny": 1
                 }
             },
             "119560696": {
@@ -62,13 +62,13 @@
                 "completion_date": "2025-05-26",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "enjoyment": 9.5,
+                    "wave": 2,
+                    "ship": 2,
+                    "swing": 3,
+                    "timing": 5,
+                    "cps": 2,
+                    "learny": 3
                 }
             },
             "116851015": {
@@ -76,13 +76,13 @@
                 "completion_date": "2025-04-03",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
+                    "enjoyment": 3,
+                    "wave": 4,
+                    "ship": 3,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 3,
+                    "cps": 5,
+                    "learny": 3
                 }
             },
             "76591567": {
@@ -90,13 +90,13 @@
                 "completion_date": "2022-01-23",
                 "is_mobile": true,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
+                    "enjoyment": 5,
+                    "wave": 4.5,
                     "ship": 0,
                     "swing": 0,
                     "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "cps": 3,
+                    "learny": 4
                 }
             },
             "122227402": {
@@ -104,13 +104,13 @@
                 "completion_date": "2025-07-03",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
+                    "enjoyment": 2,
+                    "wave": 4.5,
+                    "ship": 3,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 2,
+                    "cps": 4,
+                    "learny": 3
                 }
             },
             "122102634": {
@@ -118,12 +118,12 @@
                 "completion_date": "2025-07-03",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
+                    "enjoyment": 7,
+                    "wave": 5,
                     "ship": 0,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
+                    "timing": 3,
+                    "cps": 2,
                     "learny": 0
                 }
             },
@@ -132,13 +132,13 @@
                 "completion_date": "2025-06-07",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "enjoyment": 5,
+                    "wave": 3,
+                    "ship": 2,
+                    "swing": 4,
+                    "timing": 5,
+                    "cps": 1,
+                    "learny": 2
                 }
             },
             "89845209": {
@@ -146,13 +146,13 @@
                 "completion_date": "2023-04-08",
                 "is_mobile": true,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
+                    "enjoyment": 4,
+                    "wave": 4,
                     "ship": 0,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 2,
+                    "cps": 5,
+                    "learny": 3
                 }
             },
             "118619383": {
@@ -160,13 +160,13 @@
                 "completion_date": "2025-05-09",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
+                    "enjoyment": 9.5,
+                    "wave": 4,
+                    "ship": 3,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 3,
+                    "cps": 3,
+                    "learny": 3
                 }
             },
             "119261008": {
@@ -174,13 +174,13 @@
                 "completion_date": "2025-05-20",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
+                    "enjoyment": 6,
+                    "wave": 4,
+                    "ship": 3,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 2,
+                    "cps": 2,
+                    "learny": 2
                 }
             },
             "117645857": {
@@ -188,13 +188,13 @@
                 "completion_date": "2025-04-22",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
+                    "enjoyment": 5,
+                    "wave": 4.5,
+                    "ship": 3,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 2,
+                    "cps": 5,
+                    "learny": 3
                 }
             },
             "119161363": {
@@ -202,13 +202,13 @@
                 "completion_date": "2025-05-18",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
+                    "enjoyment": 3,
+                    "wave": 2,
+                    "ship": 2,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 4,
+                    "cps": 2,
+                    "learny": 5
                 }
             },
             "118281030": {
@@ -216,13 +216,13 @@
                 "completion_date": "2025-05-03",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
+                    "enjoyment": 5,
                     "wave": 0,
-                    "ship": 0,
+                    "ship": 4.5,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 2,
+                    "cps": 1,
+                    "learny": 2
                 }
             },
             "118867804": {
@@ -230,13 +230,13 @@
                 "completion_date": "2025-05-13",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "enjoyment": 8,
+                    "wave": 4,
+                    "ship": 3,
+                    "swing": 2,
+                    "timing": 4.5,
+                    "cps": 1,
+                    "learny": 3
                 }
             },
             "73422029": {
@@ -244,41 +244,32 @@
                 "completion_date": "2025-06-05",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
+                    "enjoyment": 5,
+                    "wave": 5,
+                    "ship": 1,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 3,
+                    "cps": 3,
+                    "learny": 1
                 }
             },
             "80474018": {
                 "video": "https://www.facebook.com/share/v/1FUSFom84w/",
                 "completion_date": "2022-08-02",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "115651663": {
                 "video": "https://www.facebook.com/groups/173396940046034/posts/1569547277097653/?comment_id=1569595033759544",
                 "completion_date": "2022-03-02",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
+                    "enjoyment": 6,
                     "wave": 0,
-                    "ship": 0,
+                    "ship": 4.5,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 2,
+                    "cps": 2,
+                    "learny": 1
                 }
             },
             "88784612": {
@@ -286,13 +277,13 @@
                 "completion_date": "2023-04-08",
                 "is_mobile": true,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
+                    "enjoyment": 6,
+                    "wave": 3,
                     "ship": 0,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 2,
+                    "cps": 3,
+                    "learny": 3
                 }
             },
             "72559349": {
@@ -300,13 +291,13 @@
                 "completion_date": "2100-01-01",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
+                    "enjoyment": 3,
                     "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "ship": 1,
+                    "swing": 4,
+                    "timing": 1,
+                    "cps": 4,
+                    "learny": 2
                 }
             },
             "90848187": {
@@ -314,13 +305,13 @@
                 "completion_date": "2023-05-20",
                 "is_mobile": true,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
+                    "enjoyment": 6,
+                    "wave": 4.5,
                     "ship": 0,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 1,
+                    "cps": 1,
+                    "learny": 1
                 }
             },
             "119551748": {
@@ -328,13 +319,13 @@
                 "completion_date": "2025-05-25",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
+                    "enjoyment": 6,
+                    "wave": 3,
                     "ship": 0,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 3,
+                    "cps": 5,
+                    "learny": 4
                 }
             },
             "83287328": {
@@ -342,13 +333,13 @@
                 "completion_date": "2022-09-01",
                 "is_mobile": true,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
+                    "enjoyment": 8,
+                    "wave": 3,
+                    "ship": 1,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 3,
+                    "cps": 2,
+                    "learny": 2
                 }
             },
             "117935329": {
@@ -356,13 +347,13 @@
                 "completion_date": "2025-04-26",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
+                    "enjoyment": 7,
                     "wave": 0,
                     "ship": 0,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 4.5,
+                    "cps": 1,
+                    "learny": 1
                 }
             },
             "75237410": {
@@ -370,13 +361,13 @@
                 "completion_date": "2100-01-01",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
+                    "enjoyment": 7,
+                    "wave": 3,
+                    "ship": 2,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 2,
+                    "cps": 1,
+                    "learny": 3
                 }
             },
             "72677924": {
@@ -384,13 +375,13 @@
                 "completion_date": "2021-08-17",
                 "is_mobile": true,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
+                    "enjoyment": 7,
+                    "wave": 3,
                     "ship": 0,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 3,
+                    "cps": 4,
+                    "learny": 1
                 }
             },
             "91274531": {
@@ -398,13 +389,13 @@
                 "completion_date": "2100-01-01",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
+                    "enjoyment": 3,
                     "wave": 0,
                     "ship": 0,
                     "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "timing": 4.5,
+                    "cps": 1,
+                    "learny": 1
                 }
             },
             "119780198": {
@@ -412,420 +403,159 @@
                 "completion_date": "2025-06-05",
                 "is_mobile": false,
                 "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
+                    "enjoyment": 8,
+                    "wave": 3,
+                    "ship": 3,
+                    "swing": 4,
+                    "timing": 3,
+                    "cps": 1,
+                    "learny": 1
                 }
             },
             "116634960": {
                 "video": "https://www.facebook.com/share/v/12K4iQvvsxv/",
                 "completion_date": "2025-03-29",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "85163351": {
                 "video": "https://www.facebook.com/share/v/16k4e4YjUs/",
                 "completion_date": "2023-04-08",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "78412311": {
                 "video": " ",
                 "completion_date": "2100-01-01",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "74653480": {
                 "video": " ",
                 "completion_date": "2100-01-01",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "73003274": {
                 "video": " ",
                 "completion_date": "2100-01-01",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "107844099": {
                 "video": "https://www.facebook.com/share/v/19NU5irZoe/",
                 "completion_date": "2024-07-15",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "72770785": {
                 "video": " ",
                 "completion_date": "2100-01-01",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "65340201": {
                 "video": "https://www.facebook.com/share/v/1F7cs7fT4c/",
                 "completion_date": "2020-11-22",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "115006142": {
                 "video": "https://www.facebook.com/groups/173396940046034/posts/1556434391742275/",
                 "completion_date": "2025-02-10",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "72628148": {
                 "video": "https://www.facebook.com/share/v/1JM44QKeUq/",
                 "completion_date": "2021-08-16",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "76384258": {
                 "video": "https://www.facebook.com/groups/173396940046034/posts/882726245779763/?comment_id=882726822446372",
                 "completion_date": "2021-12-08",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "62634126": {
                 "video": "https://www.facebook.com/share/v/1ETerv7ydz/",
                 "completion_date": "2020-07-08",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "62898135": {
                 "video": "https://www.facebook.com/share/v/1Zpc1gKKPp/",
                 "completion_date": "2021-08-17",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "64316366": {
                 "video": " ",
                 "completion_date": "2100-01-01",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "73281875": {
                 "video": " ",
                 "completion_date": "2100-01-01",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "72146474": {
                 "video": "https://www.facebook.com/share/v/1GHxKYoqfU/",
                 "completion_date": "2021-08-03",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "71721783": {
                 "video": "https://www.facebook.com/groups/173396940046034/posts/802427107143011?comment_id=802437180475337",
                 "completion_date": "2021-07-24",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "72300618": {
                 "video": " ",
                 "completion_date": "2100-01-01",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "74842717": {
                 "video": " ",
                 "completion_date": "2100-01-01",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "73161106": {
                 "video": " ",
                 "completion_date": "2100-01-01",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "73077986": {
                 "video": " ",
                 "completion_date": "2100-01-01",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "74077996": {
                 "video": " ",
                 "completion_date": "2100-01-01",
-                "is_mobile": false,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": false
             },
             "72893420": {
                 "video": "https://www.facebook.com/share/v/1BxxuggDWY/",
                 "completion_date": "2021-08-26",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "69154225": {
                 "video": "https://www.facebook.com/groups/173396940046034/posts/764715504247505/?comment_id=764826320903090",
                 "completion_date": "2021-05-16",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "67542244": {
                 "video": "https://www.facebook.com/share/v/171bVw3R2M/",
                 "completion_date": "2021-03-10",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "68344517": {
                 "video": "https://www.facebook.com/share/v/1GBNQ1JwhY/",
                 "completion_date": "2021-04-14",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "68207337": {
                 "video": "https://www.facebook.com/share/v/1BvPLHcnr4/",
                 "completion_date": "2021-04-08",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "68748903": {
                 "video": "https://www.facebook.com/share/v/1JNAa7Bm97/",
                 "completion_date": "2021-05-01",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             },
             "62178033": {
                 "video": "https://www.facebook.com/share/v/19WMzKmKi4/",
                 "completion_date": "2021-06-13",
-                "is_mobile": true,
-                "opinion": {
-                    "enjoyment": 0,
-                    "wave": 0,
-                    "ship": 0,
-                    "swing": 0,
-                    "timing": 0,
-                    "cps": 0,
-                    "learny": 0
-                }
+                "is_mobile": true
             }
         },
         "anan111🛺": {
@@ -1439,12 +1169,30 @@
             "119560696": {
                 "video": "https://www.youtube.com/watch?v=W3knz1Ayocg",
                 "completion_date": "2025-05-26",
-                "is_mobile": false
+                "is_mobile": false,
+                "opinion": {
+                    "enjoyment": 8,
+                    "wave": 2,
+                    "ship": 2,
+                    "swing": 0.5,
+                    "timing": 5,
+                    "cps": 2.5,
+                    "learny": 1.5
+                }
             },
             "116656079": {
                 "video": "https://www.youtube.com/watch?v=-BTt1YQWIIs",
                 "completion_date": "2022-07-31",
-                "is_mobile": false
+                "is_mobile": false,
+                "opinion": {
+                    "enjoyment": 2,
+                    "wave": 0,
+                    "ship": 0,
+                    "swing": 0,
+                    "timing": 4,
+                    "cps": 0,
+                    "learny": 0
+                }
             },
             "80474018": {
                 "video": "https://www.facebook.com/share/v/19bxK5U7oV/",
@@ -1454,12 +1202,30 @@
             "91274531": {
                 "video": "https://www.facebook.com/share/v/1ArF5LKfoZ/",
                 "completion_date": "2023-06-19",
-                "is_mobile": false
+                "is_mobile": false,
+                "opinion": {
+                    "enjoyment": 5,
+                    "wave": 0,
+                    "ship": 0,
+                    "swing": 0,
+                    "timing": 4,
+                    "cps": 0,
+                    "learny": 1
+                }
             },
             "119780198": {
                 "video": "https://www.facebook.com/share/v/1YRrQueMPr/",
                 "completion_date": "2025-06-05",
-                "is_mobile": false
+                "is_mobile": false,
+                "opinion": {
+                    "enjoyment": 7,
+                    "wave": 3,
+                    "ship": 0.5,
+                    "swing": 0,
+                    "timing": 3.5,
+                    "cps": 0,
+                    "learny": 2
+                }
             },
             "116634960": {
                 "video": "https://www.facebook.com/groups/173396940046034/posts/1587687145283666/?comment_id=1587959618589752",
@@ -1491,22 +1257,56 @@
             "118281030": {
                 "video": "https://www.facebook.com/share/v/1HqPAaUnqc/",
                 "completion_date": "2025-05-05",
-                "is_mobile": false
+                "is_mobile": false,
+                "opinion": {
+                    "wave": 0,
+                    "ship": 2,
+                    "swing": 0,
+                    "timing": 4,
+                    "cps": 0,
+                    "learny": 2
+                }
             },
             "116656079": {
                 "video": "https://www.facebook.com/share/v/175fSUrBJD/",
                 "completion_date": "2025-03-29",
-                "is_mobile": false
+                "is_mobile": false,
+                "opinion": {
+                    "wave": 0,
+                    "ship": 0,
+                    "swing": 0,
+                    "timing": 4,
+                    "cps": 0,
+                    "learny": 0
+                }
             },
             "115651663": {
                 "video": "https://www.facebook.com/share/v/1FAnzG6N1F/",
                 "completion_date": "2025-03-02",
-                "is_mobile": false
+                "is_mobile": false,
+                "opinion": {
+                    "enjoyment": 4,
+                    "wave": 0,
+                    "ship": 3,
+                    "swing": 0,
+                    "timing": 1,
+                    "cps": 2,
+                    "learny": 1
+                }
             },
             "117935329": {
-                "video": "https://www.facebook.com/share/v/1FAnzG6N1F/",
+                "video": "https://www.facebook.com/share/v/1JxjrXpc4V/",
                 "completion_date": "2025-04-26",
-                "is_mobile": false
+                "is_mobile": false,
+                "opinion": {
+                    "enjoyment": 7,
+                    "wave": 0,
+                    "ship": 0,
+                    "swing": 0,
+                    "timing": 3,
+                    "cps": 0,
+                    "learny": 3
+                }
             },
             "116634960": {
                 "video": "https://www.facebook.com/groups/173396940046034/posts/1587687145283666/?comment_id=1588055328580181",
@@ -1657,14 +1457,32 @@
             "91274531": {
                 "video": "https://www.facebook.com/share/v/1Dii95dTyN/",
                 "completion_date": "2023-06-04",
-                "is_mobile": false
+                "is_mobile": false,
+                "opinion": {
+                    "enjoyment": 8.5,
+                    "wave": 0,
+                    "ship": 0,
+                    "swing": 0,
+                    "timing": 2,
+                    "cps": 0,
+                    "learny": 1.5
+                }
             }
         },
         "Ruiq♿": {
             "119780198": {
                 "video": "https://www.facebook.com/share/v/1HfP4gZLLw/",
                 "completion_date": "2025-05-28",
-                "is_mobile": false
+                "is_mobile": false,
+                "opinion": {
+                    "enjoyment": 5.859874,
+                    "wave": 0,
+                    "ship": 5,
+                    "swing": 0,
+                    "timing": 1.5,
+                    "cps": 0,
+                    "learny": 0
+                }
             },
             "116634960": {
                 "video": "https://www.facebook.com/groups/173396940046034/posts/1587687145283666/?comment_id=1588009575251423",
