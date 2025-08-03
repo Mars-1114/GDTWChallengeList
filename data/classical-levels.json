@@ -1,5 +1,24 @@
 {
-    "challenge": [
+    "lvl": [
+        {
+            "name": "Final Spark",
+            "id": 124047429,
+            "song": {
+                "nong": true,
+                "name": "HIBANA -Reloaded-",
+                "artist": "DECO*27",
+                "link": "https://drive.google.com/file/d/1repAGM7sob4jP7V1ISRIKUPF6ZMzs5dZ/view"
+            },
+            "creator": [
+                "prostylepancake"
+            ],
+            "verifier": "prostylepancake",
+            "version": 2.2,
+            "length": 20,
+            "tags": [
+                "CBF"
+            ]
+        },
         {
             "name": "Easiest challenge",
             "id": 116984769,
