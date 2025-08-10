@@ -563,12 +563,12 @@
             "completion_date": "2021-09-07",
             "is_mobile": false,
             "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
+                "enjoyment": 8.5,
+                "wave": 4,
                 "ship": 0,
                 "swing": 0,
-                "timing": 0,
-                "cps": 0,
+                "timing": 4,
+                "cps": 1.5,
                 "learny": 0
             }
         },
@@ -577,13 +577,13 @@
             "completion_date": "2025-02-12",
             "is_mobile": false,
             "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
+                "enjoyment": 7,
+                "wave": 3.5,
                 "ship": 0,
                 "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
+                "timing": 2,
+                "cps": 3,
+                "learny": 2
             }
         },
         "72559349": {
@@ -591,13 +591,13 @@
             "completion_date": "2025-02-09",
             "is_mobile": false,
             "opinion": {
-                "enjoyment": 0,
+                "enjoyment": 4.5,
                 "wave": 0,
                 "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
+                "swing": 4,
+                "timing": 2,
+                "cps": 4.5,
+                "learny": 1
             }
         },
         "90848187": {
@@ -605,13 +605,13 @@
             "completion_date": "2025-02-07",
             "is_mobile": false,
             "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
+                "enjoyment": 7,
+                "wave": 4,
                 "ship": 0,
                 "swing": 0,
                 "timing": 0,
-                "cps": 0,
-                "learny": 0
+                "cps": 1,
+                "learny": 2.5
             }
         },
         "83287328": {
@@ -619,13 +619,13 @@
             "completion_date": "2025-02-07",
             "is_mobile": false,
             "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
+                "enjoyment": 8,
+                "wave": 2.5,
+                "ship": 1,
                 "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
+                "timing": 3,
+                "cps": 2,
+                "learny": 1.5
             }
         },
         "75237410": {
@@ -633,13 +633,13 @@
             "completion_date": "2025-01-23",
             "is_mobile": false,
             "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
+                "enjoyment": 5,
+                "wave": 2.5,
+                "ship": 2.5,
                 "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
+                "timing": 3.5,
+                "cps": 1,
+                "learny": 3
             }
         },
         "72677924": {
@@ -647,12 +647,12 @@
             "completion_date": "2025-02-06",
             "is_mobile": false,
             "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
+                "enjoyment": 8.5,
+                "wave": 2.5,
                 "ship": 0,
                 "swing": 0,
                 "timing": 0,
-                "cps": 0,
+                "cps": 4,
                 "learny": 0
             }
         },
@@ -661,378 +661,144 @@
             "completion_date": "2025-02-09",
             "is_mobile": false,
             "opinion": {
-                "enjoyment": 0,
+                "enjoyment": 4.5,
                 "wave": 0,
                 "ship": 0,
                 "swing": 0,
-                "timing": 0,
+                "timing": 4,
                 "cps": 0,
-                "learny": 0
+                "learny": 1.5
             }
         },
         "116634960": {
             "video": "https://www.facebook.com/share/v/16BQwQGXx8/",
             "completion_date": "2025-03-31",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "74653480": {
             "video": "https://www.facebook.com/share/v/19S2zLd5Y8/",
             "completion_date": "2025-02-08",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "73003274": {
             "video": "https://www.facebook.com/share/v/19251G3Bb9/",
             "completion_date": "2025-02-09",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "72770785": {
             "video": "https://www.facebook.com/share/v/14GL7pyHJ5z/",
             "completion_date": "2025-02-08",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "65340201": {
             "video": "https://www.facebook.com/share/v/1BxtnRtuzf/",
             "completion_date": "2022-01-23",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "115006142": {
             "video": "https://www.facebook.com/groups/173396940046034/posts/1556434391742275/?comment_id=1556444911741223",
             "completion_date": "2025-02-10",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "72628148": {
             "video": "https://www.facebook.com/share/v/1EFPxonq5S/",
             "completion_date": "2021-08-20",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "76384258": {
             "video": "https://www.facebook.com/share/v/1CQHbnWfhs/",
             "completion_date": "2022-01-21",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "62634126": {
             "video": "https://www.facebook.com/share/v/1GEY3TXbdF/",
             "completion_date": "2021-08-20",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "73346694": {
             "video": "https://www.facebook.com/share/v/14EHPEXHqxn/",
             "completion_date": "2021-09-05",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "73281875": {
             "video": " ",
             "completion_date": "2100-01-01",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "72146474": {
             "video": "https://www.facebook.com/groups/173396940046034/posts/808675896518132/?comment_id=808733693179019",
             "completion_date": "2021-08-04",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "71721783": {
             "video": "https://www.facebook.com/groups/173396940046034/posts/808675896518132/?comment_id=808733693179019",
             "completion_date": "2021-07-24",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "72300618": {
             "video": " ",
             "completion_date": "2100-01-01",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "74842717": {
             "video": "https://www.youtube.com/watch?v=uBc9pWbrivw",
             "completion_date": "2022-01-10",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "73161106": {
             "video": "https://www.facebook.com/share/v/15q25MeMpM/",
             "completion_date": "2021-09-13",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "71424312": {
             "video": "https://www.youtube.com/watch?v=2fjobz5yGZs",
             "completion_date": "2021-07-16",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "73077986": {
             "video": " ",
             "completion_date": "2100-01-01",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "71158880": {
             "video": "https://www.facebook.com/share/v/1589KJtRgok/",
             "completion_date": "2021-09-15",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "72893420": {
             "video": "https://www.facebook.com/groups/173396940046034/posts/822234785162243/?comment_id=822279055157816",
             "completion_date": "2021-08-27",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "69154225": {
             "video": "https://www.facebook.com/groups/173396940046034/posts/764715504247505/?comment_id=768572867195102",
             "completion_date": "2021-05-23",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "67542244": {
             "video": " ",
             "completion_date": "2100-01-01",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "68344517": {
             "video": "https://www.facebook.com/share/v/1CSzYfobVj/",
             "completion_date": "2021-08-20",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "71600364": {
             "video": "https://www.facebook.com/share/v/1EQMYHVCyq/",
             "completion_date": "2021-07-20",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "68748903": {
             "video": "https://www.youtube.com/watch?v=BQUc4G28exY",
             "completion_date": "2021-07-13",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         },
         "62633487": {
             "video": "https://www.facebook.com/share/v/1GNpqfcQyr/",
             "completion_date": "2021-07-11",
-            "is_mobile": false,
-            "opinion": {
-                "enjoyment": 0,
-                "wave": 0,
-                "ship": 0,
-                "swing": 0,
-                "timing": 0,
-                "cps": 0,
-                "learny": 0
-            }
+            "is_mobile": false
         }
     },
     "蘇祺文": {
@@ -1272,7 +1038,7 @@
             "completion_date": "2025-05-05",
             "is_mobile": false,
             "opinion": {
-                "enjoyment": 3,
+                "enjoyment": 5,
                 "wave": 0,
                 "ship": 2,
                 "swing": 0,
@@ -1455,7 +1221,16 @@
         "119261008": {
             "video": "https://www.facebook.com/share/v/1FUZf7zDYT/",
             "completion_date": "2025-05-20",
-            "is_mobile": false
+            "is_mobile": false,
+            "opinion": {
+                "enjoyment": 8,
+                "wave": 3.5,
+                "ship": 1.5,
+                "swing": 0,
+                "timing": 2.5,
+                "cps": 1,
+                "learny": 2
+            }
         },
         "116634960": {
             "video": "https://www.facebook.com/groups/173396940046034/posts/1589534365098944",

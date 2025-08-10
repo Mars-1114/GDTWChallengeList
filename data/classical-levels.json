@@ -16,6 +16,11 @@
             "version": 2.2,
             "length": 20,
             "tags": [
+                "SHIP",
+                "CUBE",
+                "TIMING",
+                "SYNC",
+                "PINK",
                 "CBF"
             ]
         },
@@ -35,8 +40,9 @@
             "version": 2.2,
             "length": 13,
             "tags": [
-                "CBF",
-                ""
+                "WAVE",
+                "HIGH CPS",
+                "CBF"
             ]
         },
         {
@@ -57,6 +63,9 @@
             "version": 2.2,
             "length": 8,
             "tags": [
+                "WAVE",
+                "CUBE",
+                "HIGH CPS",
                 "CBF"
             ]
         },
@@ -76,6 +85,9 @@
             "version": 2.2,
             "length": 7,
             "tags": [
+                "WAVE",
+                "HIGH CPS",
+                "SYNC",
                 "CBF"
             ]
         },
@@ -95,6 +107,9 @@
             "version": 2.2,
             "length": 15,
             "tags": [
+                "WAVE",
+                "CUBE",
+                "HIGH CPS",
                 "CBF"
             ]
         },
@@ -112,7 +127,14 @@
             ],
             "verifier": "Mars",
             "version": 2.2,
-            "length": 13
+            "length": 13,
+            "tags": [
+                "OVERALL",
+                "TIMING",
+                "HIGH CPS",
+                "SYNC",
+                "PINK"
+            ]
         },
         {
             "name": "A4 stone turi ip ip",
@@ -132,6 +154,12 @@
             "version": 2.2,
             "length": 20,
             "tags": [
+                "WAVE",
+                "CUBE",
+                "BALL",
+                "UFO",
+                "SHIP",
+                "HIGH CPS",
                 "CBF"
             ]
         },
@@ -149,7 +177,11 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 14
+            "length": 14,
+            "tags": [
+                "WAVE",
+                "HIGH CPS"
+            ]
         },
         {
             "name": "Tunnel",
@@ -167,6 +199,10 @@
             "version": 2.2,
             "length": 21,
             "tags": [
+                "WAVE",
+                "SHIP",
+                "UFO",
+                "HIGH CPS",
                 "CBF"
             ]
         },
@@ -186,6 +222,10 @@
             "version": 2.2,
             "length": 13,
             "tags": [
+                "WAVE",
+                "CUBE",
+                "CONSISTENCY",
+                "TIMING",
                 "CBF"
             ]
         },
@@ -205,6 +245,10 @@
             "version": 2.2,
             "length": 12,
             "tags": [
+                "OVERALL",
+                "TIMING",
+                "SYNC",
+                "PINK",
                 "CBF"
             ]
         },
@@ -222,7 +266,13 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 12
+            "length": 12,
+            "tags": [
+                "WAVE",
+                "CUBE",
+                "TIMING",
+                "HIGH CPS"
+            ]
         },
         {
             "name": "BALALAIKA",
@@ -240,6 +290,14 @@
             "version": 2.2,
             "length": 21,
             "tags": [
+                "WAVE",
+                "SHIP",
+                "CUBE",
+                "UFO",
+                "SPIDER",
+                "TIMING",
+                "SYNC",
+                "PINK",
                 "CBF"
             ]
         },
@@ -259,6 +317,14 @@
             "version": 2.2,
             "length": 29,
             "tags": [
+                "WAVE",
+                "SHIP",
+                "CUBE",
+                "UFO",
+                "ROBOT",
+                "TIMING",
+                "SYNC",
+                "PINK",
                 "CBF"
             ]
         },
@@ -278,6 +344,11 @@
             "version": 2.2,
             "length": 14,
             "tags": [
+                "SHIP",
+                "WAVE",
+                "UFO",
+                "CUBE",
+                "HIGH CPS",
                 "CBF"
             ]
         },
@@ -297,6 +368,15 @@
             "version": 2.2,
             "length": 11,
             "tags": [
+                "CUBE",
+                "WAVE",
+                "BALL",
+                "SHIP",
+                "UFO",
+                "ROBOT",
+                "TIMING",
+                "SYNC",
+                "PINK",
                 "CBF"
             ]
         },
@@ -316,6 +396,12 @@
             "version": 2.2,
             "length": 15,
             "tags": [
+                "SHIP",
+                "CUBE",
+                "UFO",
+                "TIMING",
+                "SYNC",
+                "PINK",
                 "CBF"
             ]
         },
@@ -335,6 +421,16 @@
             "version": 2.2,
             "length": 11,
             "tags": [
+                "CUBE",
+                "SWING",
+                "WAVE",
+                "SHIP",
+                "BALL",
+                "SPIDER",
+                "UFO",
+                "TIMING",
+                "SYNC",
+                "PINK",
                 "CBF"
             ]
         },
@@ -355,6 +451,12 @@
             "version": 2.1,
             "length": 19,
             "tags": [
+                "WAVE",
+                "BALL",
+                "SPIDER",
+                "CUBE",
+                "SHIP",
+                "TIMING",
                 "60 FPS"
             ]
         },
@@ -374,26 +476,9 @@
             "version": 2.2,
             "length": 14,
             "tags": [
+                "CUBE",
+                "TIMING",
                 "60 FPS"
-            ]
-        },
-        {
-            "name": "Probably Straight",
-            "id": 115651663,
-            "song": {
-                "nong": false,
-                "name": "-ThunderZone v2-",
-                "artist": "Waterflame",
-                "id": 638150
-            },
-            "creator": [
-                "prostylepancake"
-            ],
-            "verifier": "prostylepancake",
-            "version": 2.2,
-            "length": 28,
-            "tags": [
-                "CBF"
             ]
         },
         {
@@ -410,7 +495,12 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 15
+            "length": 15,
+            "tags": [
+                "WAVE",
+                "UFO",
+                "TIMING"
+            ]
         },
         {
             "name": "xxoo xoxo",
@@ -426,7 +516,14 @@
             ],
             "verifier": "蔡龍",
             "version": 2.1,
-            "length": 17
+            "length": 17,
+            "tags": [
+                "OLD SWING",
+                "ROBOT",
+                "SHIP",
+                "CUBE",
+                "TIMING"
+            ]
         },
         {
             "name": "the qwq test",
@@ -442,7 +539,12 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 14
+            "length": 14,
+            "tags": [
+                "WAVE",
+                "CUBE",
+                "TIMING"
+            ]
         },
         {
             "name": "rebbit hllooe",
@@ -460,6 +562,15 @@
             "version": 2.2,
             "length": 11,
             "tags": [
+                "CUBE",
+                "WAVE",
+                "SPIDER",
+                "BALL",
+                "SHIP",
+                "UFO",
+                "HIGH CPS",
+                "SYNC",
+                "PINK",
                 "CBF"
             ]
         },
@@ -477,7 +588,14 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 15
+            "length": 15,
+            "tags": [
+                "WAVE",
+                "SHIP",
+                "ROBOT",
+                "CUBE",
+                "TIMING"
+            ]
         },
         {
             "name": "Lost Umbrella",
@@ -495,6 +613,8 @@
             "version": 2.2,
             "length": 21,
             "tags": [
+                "BALL",
+                "TIMING",
                 "CBF"
             ]
         },
@@ -512,7 +632,14 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 23
+            "length": 23,
+            "tags": [
+                "CUBE",
+                "WAVE",
+                "SHIP",
+                "BALL",
+                "TIMING"
+            ]
         },
         {
             "name": "finding in the eeae",
@@ -528,7 +655,13 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 13
+            "length": 13,
+            "tags": [
+                "WAVE",
+                "CUBE",
+                "HIGH CPS",
+                "TIMING"
+            ]
         },
         {
             "name": "Sound of YYYYYYYYYYY",
@@ -544,7 +677,11 @@
             ],
             "verifier": "NosticUwu",
             "version": 2.1,
-            "length": 15
+            "length": 15,
+            "tags": [
+                "ROBOT",
+                "TIMING"
+            ]
         },
         {
             "name": "yalper",
@@ -562,6 +699,14 @@
             "version": 2.2,
             "length": 9,
             "tags": [
+                "WAVE",
+                "CUBE",
+                "ROBOT",
+                "UFO",
+                "SWING",
+                "BALL",
+                "TIMING",
+                "GREEN",
                 "60 FPS"
             ]
         },
@@ -1122,6 +1267,25 @@
             "length": 3,
             "tags": [
                 "60 FPS"
+            ]
+        },
+        {
+            "name": "Probably Straight",
+            "id": 115651663,
+            "song": {
+                "nong": false,
+                "name": "-ThunderZone v2-",
+                "artist": "Waterflame",
+                "id": 638150
+            },
+            "creator": [
+                "prostylepancake"
+            ],
+            "verifier": "prostylepancake",
+            "version": 2.2,
+            "length": 29,
+            "tags": [
+                "CBF"
             ]
         },
         {
