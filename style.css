@@ -39,6 +39,7 @@
   --text-list-default: rgb(107, 191, 199);
   --text-leaderboard-detail: rgb(159, 223, 198);
   --text-leaderboard-detail-border: rgb(65, 105, 102);
+  --text-rating: rgb(230, 90, 90);
 
   --link-default: rgb(181, 163, 199);
   --link-menu: rgb(207, 207, 207);
@@ -52,6 +53,10 @@
   --bg-contact: rgba(255, 255, 255, 0.08);
   --bg-switch: rgba(136, 161, 60, 0.226);
   --bg-modal: rgb(38, 44, 57);
+
+  --rating-base: rgb(69, 74, 104);
+  --rating-border: rgb(11, 12, 17);
+  --rating-bg: rgba(156, 0, 0, 0.071);
 }
 
 body {
@@ -556,18 +561,17 @@ address.addr {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1100px;
+  width: 100%;
 }
 
-#player-container {
+#list-container {
   overflow: hidden;
   max-height: calc(100vb - 150px);
   min-width: 350px;
-  flex: 40%;
   margin-top: 20px;
 }
 
-#player {
+#list {
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
@@ -576,7 +580,7 @@ address.addr {
   scrollbar-width: 10px;
 }
 
-#leaderboard-border {
+.leaderboard-border {
   display: inline-block;
   align-self: center;
   height:75vb;
@@ -585,20 +589,59 @@ address.addr {
   margin-top: 5px;
 }
 
-#player-detail-container {
+#completion-container {
   overflow: hidden;
   max-height: calc(100vb - 150px);
-  flex: 60%;
+  margin-top: 20px;
+}
+
+#completion {
+  width: calc(100% - 30px);
+  height: 100%;
+  margin-left: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-color: var(--text-note) transparent;
+  scrollbar-width: 10px;
+}
+
+#detail-container {
+  overflow: hidden;
+  max-height: calc(100vb - 150px);
   margin-top: 20px;
   margin-left: 10px;
 }
 
-#player-detail {
+#detail {
+  position: relative;
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
   scrollbar-color: var(--text-note) transparent;
   scrollbar-width: 10px;
+}
+
+#detail-name, #detail-name_mobile {
+  float: left;
+  margin: 0;
+  max-width: 400px;
+  height: 50px;
+  line-height: 50px;
+  color: var(--text-list-default);
+}
+
+#detail-creator {
+  height: 27px;
+  line-height: 27px;
+  font-size: 18px; 
+  font-style: italic;
+  margin: 0 0 20px 40px;
+}
+
+#detail-creator_mobile {
+  font-size: 14px; 
+  font-style: italic;
+  margin: 0 0 30px 40px;
 }
 
 .leaderboard-btn {
@@ -615,29 +658,168 @@ address.addr {
   transition: background-color 0.1s linear;
 }
 
-#player-info,
-#player-info_mobile {
+#detail-info,
+#detail-info_mobile {
   display: grid;
   width: 90%;
 
   grid-template-columns: [c1] 0.333fr [c2] 0.333fr [c3] 0.333fr [c4];
-  grid-template-rows: [r1] 0.5fr [r2] 0.5fr [r3];
+  grid-template-rows: [r1] 0.25fr [r2] 0.25fr [r3] 0.25fr [r4] 0.25fr [r5];
 
   text-align: center;
-  line-height: 40px;
 }
 
-#player-info .title,
-#player-info_mobile .title {
-  height: 40px;
-  font-weight: 700;
+#detail-tag {
+  margin: 12px 0 12px 25px;
+}
+
+.tag {
+  display: inline-block;
+  margin: 3px 3px;
+  padding: 2px 8px;
+  border: solid 2px var(--text-note);
+  border-radius: 5px;
+
+  transform: skew(-20deg);
+}
+
+.tag span {
+  display: inline-block;
+  transform: skew(20deg);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 15px;
   color: var(--text-leaderboard-detail);
+}
+
+#detail-info .title,
+#detail-info_mobile .title {
+  padding-top: 10px;
+  height: 20px;
+  line-height: 20px;
+}
+
+#detail-info .leaderboard-detail-content {
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
   border-bottom: solid 1px var(--text-leaderboard-detail-border);
 }
 
-#player-info .leaderboard-detail-content {
-  height: 40px;
-  font-size: 20px;
+#detail-ratings-container {
+  position: absolute;
+  width: 89%;
+  bottom: 15px;
+  left: calc(50% - 10px);
+  transform: translateX(-50%);
+}
+
+#detail-ratings,
+#detail-ratings_mobile {
+  position: relative;
+  display: grid;
+  height: 150px;
+
+  background-color: var(--rating-bg);
+
+  padding-top: 10px;
+
+  border: solid 4px var(--text-list-top);
+  border-radius: 10px;
+
+  margin-left: 25px;
+  margin-top: 20px;
+
+  grid-template-columns: [c1] 0.333fr [c2] 0.222fr [c3] 0.222fr [c4] 0.223fr [c5];
+  grid-template-rows: [r1] 0.2fr [r2] 0.3fr [r3] 0.2fr [r3] 0.3fr [r4];
+
+  justify-items: center;
+
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+#ratings-warning {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 20px;
+  height: 20px;
+
+  border: solid 4px var(--text-list-top);
+  border-left: transparent;
+  border-top: transparent;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  text-align: center;
+  color: var(--text-list-top);
+  line-height: 20px;
+
+  user-select: none;
+
+  transition: border-color 0.2s, color 0.2s;
+}
+
+#ratings-enj {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  margin-top: 25px;
+
+  grid-template-columns: [c1] 0.6fr [c2] 0.4fr [c3];
+  grid-template-rows: [r1] 0.4fr [r2] 0.6fr [r3];
+
+  text-align: center; 
+}
+
+#enj-val {
+  font-size: 50px;
+  font-weight: bold;
+  align-self: center;
+  justify-self: end;
+  padding-bottom: 25px;
+
+  color: var(--text-rating);
+
+  transition: filter 0.4s;
+}
+
+.skillset {
+  display: inline-block;
+  margin-top: 5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: solid 4px var(--rating-border);
+  line-height: 35px;
+
+  background: conic-gradient(var(--text-rating) 0deg, var(--text-rating) 0deg, var(--rating-base) 0deg);
+
+  filter: brightness(0.5) saturate(0.8) hue-rotate(0);
+
+  transition: filter 0.4s;
+}
+
+.rating {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  color: var(--text-rating);
+
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+
+  user-select: none;
+
+  transition: filter 0.4s;
 }
 
 img {
@@ -656,7 +838,7 @@ img {
   border-radius: 15px;
 }
 
-.mobile-leaderboard {
+.leaderboard_mobile {
   display: none;
   margin-left: auto;
   margin-right: auto;
@@ -664,7 +846,7 @@ img {
   max-width: 600px;
 }
 
-#mobile-detail-container {
+#detail-container_mobile {
   position: fixed;
   display: flex;
   width: 100%;
@@ -682,7 +864,7 @@ img {
   transition: opacity 0.2s;
 }
 
-#mobile-modal {
+#modal_mobile {
   position: relative;
   height: 550px;
   padding: 20px;
@@ -696,7 +878,7 @@ img {
   transition: top 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-#mobile-detail {
+#detail_mobile {
   width: 80vi;
   height: 500px;
   min-width: 360px;
@@ -734,6 +916,23 @@ img {
   padding: 10px 0;
 }
 
+#thumbnail {
+  position: absolute;
+  right: 5px;
+  top: -5px;
+  width: 400px;
+  height: 100px;
+  float: right;
+
+  object-fit: cover;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+
+  z-index: -1;
+
+  mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 95%);
+}
+
 /* QUERIES */
 
 @keyframes load {
@@ -745,7 +944,7 @@ img {
   .leaderboard {
     display: none;
   }
-  .mobile-leaderboard {
+  .leaderboard_mobile {
     display: block;
   }
   body#leaderboard {
@@ -781,17 +980,17 @@ img {
 }
 
 @media all and (max-width: 730px) {
-  #mobile-modal {
+  #modal_mobile {
     padding: 5px;
     height: 85vh !important;
   }
 
-  #mobile-detail {
+  #detail_mobile {
     height: 75vh !important;
     padding: 0 7px;
   }
 
-  #mobile-detail h1 {
+  #detail_mobile h1 {
     font-size: 20px;
     vertical-align: middle;
   }
@@ -826,24 +1025,24 @@ img {
     margin-left: 10px !important;
   }
 
-  #player-info_mobile .title {
+  #detail-info_mobile .title {
     font-size: 14px !important;
   }
 
-  #player-info_mobile .leaderboard-detail-content {
+  #detail-info_mobile .leaderboard-detail-content {
     font-size: 12px !important;
   }
 
-  #player-info_mobile {
+  #detail-info_mobile {
     line-height: 30px !important;
     margin-left: 10px !important;
   }
 
-  #player-info_mobile span {
+  #detail-info_mobile span {
     height: 30px !important;
   }
 
-  #mobile-detail h2 {
+  #detail_mobile h2 {
     font-size: 18px;
     height: 25px !important;
     width: 80px !important;
@@ -895,7 +1094,7 @@ img {
     margin-left: 15px !important;
   }
 
-  #player-level-list_mobile>div {
+  #detail-completions_mobile>div {
     font-size: 15px !important;
     height: 25px !important;
   }
