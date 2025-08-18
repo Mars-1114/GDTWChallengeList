@@ -18,6 +18,7 @@
             "tags": [
                 "SHIP",
                 "CUBE",
+                "DUAL",
                 "TIMING",
                 "SYNC",
                 "PINK",
@@ -110,6 +111,7 @@
                 "WAVE",
                 "CUBE",
                 "HIGH CPS",
+                "CONSISTENCY",
                 "CBF"
             ]
         },
@@ -180,7 +182,8 @@
             "length": 14,
             "tags": [
                 "WAVE",
-                "HIGH CPS"
+                "HIGH CPS",
+                "SYNC"
             ]
         },
         {
@@ -226,6 +229,7 @@
                 "CUBE",
                 "CONSISTENCY",
                 "TIMING",
+                "SYNC",
                 "CBF"
             ]
         },
@@ -271,7 +275,8 @@
                 "WAVE",
                 "CUBE",
                 "TIMING",
-                "HIGH CPS"
+                "HIGH CPS",
+                "SYNC"
             ]
         },
         {
@@ -499,7 +504,8 @@
             "tags": [
                 "WAVE",
                 "UFO",
-                "TIMING"
+                "TIMING",
+                "SYNC"
             ]
         },
         {
@@ -522,6 +528,7 @@
                 "ROBOT",
                 "SHIP",
                 "CUBE",
+                "DUAL",
                 "TIMING"
             ]
         },
@@ -543,7 +550,8 @@
             "tags": [
                 "WAVE",
                 "CUBE",
-                "TIMING"
+                "TIMING",
+                "SYNC"
             ]
         },
         {
@@ -594,7 +602,8 @@
                 "SHIP",
                 "ROBOT",
                 "CUBE",
-                "TIMING"
+                "TIMING",
+                "SYNC"
             ]
         },
         {
@@ -703,6 +712,7 @@
                 "CUBE",
                 "ROBOT",
                 "UFO",
+                "SHIP",
                 "SWING",
                 "BALL",
                 "TIMING",

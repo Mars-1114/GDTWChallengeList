@@ -1,0 +1,37 @@
+{
+    "Requirement": {
+        "FPS": ["此挑戰<strong>須</strong>使用", "遊玩"]
+    },
+    "Gamemode": {
+        "CUBE": "此挑戰含有Cube的Gameplay",
+        "SHIP": "此挑戰含有Ship的Gameplay",
+        "BALL": "此挑戰含有Ball的Gameplay",
+        "UFO": "此挑戰含有UFO的Gameplay",
+        "WAVE": "此挑戰含有Wave的Gameplay",
+        "ROBOT": "此挑戰含有Robot的Gameplay",
+        "SPIDER": "此挑戰含有Spider的Gameplay",
+        "SWING": "此挑戰含有Swing的Gameplay",
+        "OLD SWING": "此挑戰含有Dual Ball Swing的Gameplay",
+        "OVERALL": "此挑戰含有所有模式的Gameplay",
+        "DUAL": "此挑戰含有Dual的Gameplay"
+    },
+    "Skillset": {
+        "TIMING": "此挑戰要求精準的點擊時機",
+        "HIGH CPS": "此挑戰要求高速點擊",
+        "CONSISTENCY": "此挑戰要求操作重複的Click Pattern",
+        "MEMORY": "此挑戰要求路線記憶",
+        "2P": "此挑戰要求雙手協調能力",
+
+        "SPEEDRUN": "此挑戰要求在時限內通關"
+    },
+    "Level": {
+        "SYNC": "此挑戰之Click Pattern與音樂旋律高度相關",
+
+        "NEEDLE": "此挑戰含有鑽刺配置",
+        "AVOIDANCE": "此挑戰含有彈幕型Gameplay",
+        "TECH": "此挑戰含有罕見玩法"
+    },
+    "Others": {
+        "CBF": "此挑戰使用CBF驗證"
+    }
+}

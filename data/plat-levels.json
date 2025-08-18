@@ -15,6 +15,12 @@
             "verifier": "carti",
             "version": 2.2,
             "tags": [
+                "SHIP",
+                "ROBOT",
+                "CUBE",
+                "BALL",
+                "SPIDER",
+                "NEEDLE"
             ]
         },
         {
@@ -32,6 +38,12 @@
             "verifier": "超大法國麵包🥖",
             "version": 2.2,
             "tags": [
+                "ROBOT",
+                "SHIP",
+                "NEEDLE",
+                "SYNC",
+                "CBF",
+                "SPEEDRUN"
             ]
         },
         {
@@ -49,6 +61,7 @@
             "verifier": "relloo",
             "version": 2.2,
             "tags": [
+                "CUBE"
             ]
         }
     ]
