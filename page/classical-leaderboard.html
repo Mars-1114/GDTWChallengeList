@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+  <meta http-equiv='cache-control' content='no-cache'> 
+  <meta http-equiv='expires' content='0'> 
+  <meta http-equiv='pragma' content='no-cache'>
+  <title>GDTW Challenge List</title>
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="/resource/icon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,500,1,0">
+  <base target="_blank">
+</head>
+
+<body id="leaderboard" style="overflow: hidden; overflow-x: hidden;">
+  <div id="menuContainer"></div>
+  <div class="loaderContainer">
+    <div class="loader"></div>
+    <p><br><br>Loading</p>
+  </div>
+  <div class="content leaderboard" style="opacity:0;">
+    <div id="list-container" style="flex: 40%; padding-left: 15px;">
+      <div id="list"></div>
+    </div>
+    <span class="leaderboard-border"></span>
+    <div id="completion-container" style="flex: 60%; padding-right: 15px;">
+      <div id="completion">
+        <div style='margin: 30px 0 10px 40px; height: 50px; width: 90%; position: relative;'>
+          <h1 id="detail-name"></h1>
+          <div id="detail-status" style='float: left; height: 50px; margin-left: 10px;'>
+            <img src='/resource/img/leave.png' title='此玩家已退社' height='30px' style='margin-top: 8px;'>
+          </div>
+          <div id="contact"></div>
+        </div>
+        <div id='detail-info' style='margin-left: 30px;'>
+          <span class='title' style='grid-column: 1/2; grid-row: 1/2; padding-bottom: 10px; border-bottom: solid 1px var(--text-leaderboard-detail-border)'>
+            排名
+          </span>
+          <span class='title' style='grid-column: 2/3; grid-row: 1/2; padding-bottom: 10px; border-bottom: solid 1px var(--text-leaderboard-detail-border)'>
+            分數
+          </span>
+          <span class='title' style='grid-column: 3/4; grid-row: 1/2; padding-bottom: 10px; border-bottom: solid 1px var(--text-leaderboard-detail-border)'>
+            關卡數 &nbsp<span style="color: var(--text-note)">(+Legacy)</span>
+          </span>
+          <span id="detail-rank" class='leaderboard-detail-content' style='grid-column: 1/2; grid-row: 2/3; border: none'></span>
+          <span id="detail-pts" class='leaderboard-detail-content' style='grid-column: 2/3; grid-row: 2/3; border: none'></span>
+          <span id="detail-num" class='leaderboard-detail-content' style='grid-column: 3/4; grid-row: 2/3; border: none'></span>
+        </div>
+        <div style='margin: 0 0 20px 40px; width: 98%; height: 35px;'>
+          <h2 style='margin: 0; width: 150px; float: left;'>
+            通關挑戰
+          </h2>
+        </div>
+        <div id='detail-completions'></div>
+      </div>
+    </div>
+  </div>
+  <!-- End -->
+  <address class="addr">
+    Website by Mars
+  </address>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/code/utils.js"></script>
+  <script src="/code/menu.js"></script>
+  <script src="/code/classical-leaderboard.js"></script>
+  <script src="/code/cookie.js"></script>
+</body>
+</html>
