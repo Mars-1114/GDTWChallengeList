@@ -1,6 +1,6 @@
 const LIST_LEN = 10;
 
-let levels_file = "/data/spam-levels.json";
+let levels_file = "../data/spam-levels.json";
 let players_file = "/data/spam-players.json";
 let contact_file = "/data/player-contact.json";
 let tag_file = "/data/tags-desc.json";
@@ -216,7 +216,7 @@ function listPlayers(players, show_rank = true) {
     str += "<div style='height: 30px; width: 98%; line-height: 30px; font-size: 20px; margin: 10px 0;'>\
               <span class='lvl-tag' style='width: 30px; height: 30px; float: left;'>";
     if (player.is_mobile) {
-      str += "<img src='/resource/img/mobile.png' height='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>"
+      str += "<img src='../resource/img/mobile.png' height='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>"
     }
     str +=   "</span>";
     if (show_rank) {
@@ -244,11 +244,11 @@ function listPlayers(players, show_rank = true) {
         var img = "link.png";
       }
       str += "<a class='link' href=" + player.video + ">\
-                <img src='/resource/img/" + img + "' width='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>\
+                <img src='../resource/img/" + img + "' width='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>\
               </a>";
     }
     else {
-      str += "<img src='/resource/img/broken.png' width='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>";
+      str += "<img src='../resource/img/broken.png' width='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>";
     }
     str += "  </span>";
     if (player.video != " ") {

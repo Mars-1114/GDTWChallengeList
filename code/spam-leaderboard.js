@@ -1,9 +1,9 @@
 const LIST_LEN = 10;
 
-let levels_file = "/data/spam-levels.json";
-let players_file = "/data/spam-players.json";
-let contact_file = "/data/player-contact.json";
-let tag_file = "/data/tags-desc.json";
+let levels_file = "../data/spam-levels.json";
+let players_file = "../data/spam-players.json";
+let contact_file = "../data/player-contact.json";
+let tag_file = "../data/tags-desc.json";
 
 let levels = [];
 let players = {};
@@ -254,12 +254,12 @@ function listLevels(player, levels) {
     str += "<div class='" + ((level.placement <= LIST_LEN) ? "" : "legacy") + "' style='height: 30px; width: 98%; line-height: 30px; font-size: 20px; margin: 10px 0;'>\
               <span class='lvl-tag' style='width: 35px; height: 30px; float: left;'>";
     if (level.is_mobile) {
-      str += "<img src='/resource/img/mobile.png' height='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>"
+      str += "<img src='../resource/img/mobile.png' height='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>"
     }
     str +=   "</span>\
               <span class='lvl-tag' style='width: 30px; height: 30px; float: left;'>";
     if (IsCreator(player, level.id)) {
-      str += "<img src='/resource/img/creator.png' height='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>"
+      str += "<img src='../resource/img/creator.png' height='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>"
     }
     str +=   "</span>";
     let color = IsVerifier(player, level.id) ? "var(--text-list-default)" : "var(--text-default)";
@@ -287,11 +287,11 @@ function listLevels(player, levels) {
         var img = "link.png";
       }
       str += "<a class='link' href=" + level.video + ">\
-                <img src='/resource/img/" + img + "' width='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>\
+                <img src='../resource/img/" + img + "' width='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>\
               </a>";
     }
     else {
-      str += "<img src='/resource/img/broken.png' width='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>";
+      str += "<img src='../resource/img/broken.png' width='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>";
     }
     str += "  </span>\
               <span class='lvl-date' style=' width: 80px; float: right; height: 30px; margin-right: 20px; font-size: 15px; color: var(--text-note)'>" +

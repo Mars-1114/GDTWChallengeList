@@ -1,9 +1,9 @@
 const LIST_LEN = 20;
 
-let levels_file = "/data/plat-levels.json";
-let players_file = "/data/plat-players.json";
-let contact_file = "/data/player-contact.json";
-let tag_file = "/data/tags-desc.json";
+let levels_file = "../data/plat-levels.json";
+let players_file = "../data/plat-players.json";
+let contact_file = "../data/player-contact.json";
+let tag_file = "../data/tags-desc.json";
 
 let levels = [];
 let players = {};
@@ -213,7 +213,7 @@ function listPlayers(players, show_rank = true) {
     str += "<div style='height: 30px; width: 98%; line-height: 30px; font-size: 20px; margin: 10px 0;'>\
               <span class='lvl-tag' style='width: 30px; height: 30px; float: left;'>";
     if (player.is_mobile) {
-      str += "<img src='/resource/img/mobile.png' height='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>"
+      str += "<img src='../resource/img/mobile.png' height='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>"
     }
     str +=   "</span>";
     if (show_rank) {
@@ -241,11 +241,11 @@ function listPlayers(players, show_rank = true) {
         var img = "link.png";
       }
       str += "<a class='link' href=" + player.video + ">\
-                <img src='/resource/img/" + img + "' width='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>\
+                <img src='../resource/img/" + img + "' width='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>\
               </a>";
     }
     else {
-      str += "<img src='/resource/img/broken.png' width='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>";
+      str += "<img src='../resource/img/broken.png' width='25px' style='position: relative; top: 50%; transform: translateY(-50%)'>";
     }
     str += "  </span>";
     if (player.video != " ") {
@@ -264,7 +264,7 @@ function listPlayers(players, show_rank = true) {
 
 function loadDetails(dID) {
   let lvl = list[dID - 1];
-  let img_url = "/resource/img/thumbnail/" + lvl.id + ".jpg";
+  let img_url = "../resource/img/thumbnail/" + lvl.id + ".jpg";
   
   // load info
   $("#detail-name").html(lvl.name);
@@ -285,7 +285,7 @@ function loadDetails(dID) {
         $("#thumbnail").attr("src", img_url);
     }
     else {
-        $("#thumbnail").attr("src", "/resource/img/thumbnail/default.png");
+        $("#thumbnail").attr("src", "../resource/img/thumbnail/default.png");
     }
   });
 
