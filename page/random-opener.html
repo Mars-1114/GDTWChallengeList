@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body style="margin: 0; background-color: rgb(70, 37, 65); user-select: none; -webkit-user-select: none;">
+        <div id="word" style="text-align: center; line-height: 100vb; width: 100%; height: 100%; font-size: 80px; font-family: 'Courier New', Courier, monospace; font-weight: 700; color: #ff93dd"></div>
+        <div id="date" style="position: absolute; text-align: center; top: 50%; left: 50%; transform: translateY(calc(-50% + 100px)) translateX(-50%); font-size: 20px; font-family: 'Courier New', Courier, monospace; font-weight: 700; color: #ff93dd"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            // read list
+            fetch("/resource/valid-words-lookup.txt")
+                .then(response => response.text())
+                .then(text => {
+                    let wordList = text.split("\n");
+                    // generate opener
+                    let n = Math.floor(Math.random() * (wordList.length - 1));
+                    $("#word").html(wordList[n]);
+
+                    // get current time
+                    let now = new Date();
+                    let D = String(now.getDate()).padStart(2, "0");
+                    let M = String(now.getMonth() + 1).padStart(2, "0");
+                    let Y = now.getFullYear();
+                    let h = String(now.getHours()).padStart(2, "0");
+                    let m = String(now.getMinutes()).padStart(2, "0");
+                    let s = String(now.getSeconds()).padStart(2, "0");
+
+                    let timestr = Y + "/" + M + "/" + D + ", " + h + ":" + m + ":" + s;
+
+                    $("#date").html("生成時間：" + timestr);
+                })
+        </script>
+    </body>
+</html>

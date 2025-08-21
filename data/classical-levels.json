@@ -10,9 +10,9 @@
                 "link": "https://drive.google.com/file/d/1repAGM7sob4jP7V1ISRIKUPF6ZMzs5dZ/view"
             },
             "creator": [
-                "prostylepancake"
+                "ProStylePancake"
             ],
-            "verifier": "prostylepancake",
+            "verifier": "ProStylePancake",
             "version": 2.2,
             "length": 20,
             "tags": [
@@ -22,7 +22,8 @@
                 "TIMING",
                 "SYNC",
                 "PINK",
-                "CBF"
+                "CBF",
+                "狗式尾殺"
             ]
         },
         {
@@ -382,7 +383,8 @@
                 "TIMING",
                 "SYNC",
                 "PINK",
-                "CBF"
+                "CBF",
+                "狗式尾殺"
             ]
         },
         {
@@ -616,9 +618,9 @@
                 "link": "https://youtu.be/DeKLpgzh-qQ"
             },
             "creator": [
-                "prostylepancake"
+                "ProStylePancake"
             ],
-            "verifier": "prostylepancake",
+            "verifier": "ProStylePancake",
             "version": 2.2,
             "length": 21,
             "tags": [
@@ -736,7 +738,18 @@
             "version": 2.2,
             "length": 10,
             "tags": [
-                "CBF"
+                "CBF",
+                "SYNC",
+                "PINK",
+                "CUBE",
+                "WAVE",
+                "SHIP",
+                "UFO",
+                "ROBOT",
+                "SPIDER",
+                "TIMING",
+                "DUAL",
+                "狗式尾殺"
             ]
         },
         {
@@ -754,23 +767,12 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 12
-        },
-        {
-            "name": "1x10",
-            "id": 78412311,
-            "song": {
-                "nong": false,
-                "name": "Dropping Fish",
-                "artist": "Xrullor",
-                "id": 494623
-            },
-            "creator": [
-                "超大法國麵包🥖"
-            ],
-            "verifier": "超大法國麵包🥖",
-            "version": 2.1,
-            "length": 7
+            "length": 12,
+            "tags": [
+                "SHIP",
+                "CUBE",
+                "TIMING"
+            ]
         },
         {
             "name": "stop thinking",
@@ -786,7 +788,13 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 6
+            "length": 6,
+            "tags": [
+                "WAVE",
+                "CUBE",
+                "TIMING",
+                "SYNC"
+            ]
         },
         {
             "name": "cool thing",
@@ -802,25 +810,11 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 14
-        },
-        {
-            "name": "wave XXX",
-            "id": 107844099,
-            "song": {
-                "nong": false,
-                "name": "Holy War",
-                "artist": "BoomKitty",
-                "id": 771703
-            },
-            "creator": [
-                "超大法國麵包🥖"
-            ],
-            "verifier": "超大法國麵包🥖",
-            "version": 2.2,
-            "length": 12,
+            "length": 14,
             "tags": [
-                "CBF"
+                "WAVE",
+                "BALL",
+                "HIGH CPS"
             ]
         },
         {
@@ -837,41 +831,13 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 12
-        },
-        {
-            "name": "wave3",
-            "id": 65340201,
-            "song": {
-                "nong": false,
-                "name": "Holy War",
-                "artist": "BoomKitty",
-                "id": 771703
-            },
-            "creator": [
-                "超大法國麵包🥖"
-            ],
-            "verifier": "超大法國麵包🥖",
-            "version": 2.1,
-            "length": 2
-        },
-        {
-            "name": "SILVER062 Can Clear",
-            "id": 115006142,
-            "song": {
-                "nong": false,
-                "name": "Troglodyte",
-                "artist": "Kaixo",
-                "id": 722594
-            },
-            "creator": [
-                "Mars",
-                "anan111🛺",
-                "超大法國麵包🥖"
-            ],
-            "verifier": "超大法國麵包🥖",
-            "version": 2.2,
-            "length": 8
+            "length": 12,
+            "tags": [
+                "WAVE",
+                "CUBE",
+                "HIGH CPS",
+                "狗式尾殺"
+            ]
         },
         {
             "name": "tonikaku e",
@@ -887,7 +853,14 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 13
+            "length": 13,
+            "tags": [
+                "WAVE",
+                "UFO",
+                "SHIP",
+                "CUBE",
+                "BALL"
+            ]
         },
         {
             "name": "Breakfast Zaocan",
@@ -903,7 +876,11 @@
             ],
             "verifier": "蔡龍",
             "version": 2.1,
-            "length": 4
+            "length": 4,
+            "tags": [
+                "WAVE",
+                "CUBE"
+            ]
         },
         {
             "name": "Sync Forever",
@@ -919,7 +896,17 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 23
+            "length": 23,
+            "tags": [
+                "WAVE",
+                "CUBE",
+                "UFO",
+                "SPIDER",
+                "SHIP",
+                "SYNC",
+                "狗式尾殺",
+                "TIMING"
+            ]
         },
         {
             "name": "Mini ShipGame 3",
@@ -935,23 +922,11 @@
             ],
             "verifier": "游任穎",
             "version": 2.1,
-            "length": 12
-        },
-        {
-            "name": "Jello030 is so pro",
-            "id": 62771736,
-            "song": {
-                "nong": false,
-                "name": "Skystrike",
-                "artist": "Hinkik",
-                "id": 700355
-            },
-            "creator": [
-                "Ruiq♿"
-            ],
-            "verifier": "Ruiq♿",
-            "version": 2.1,
-            "length": 16
+            "length": 12,
+            "tags": [
+                "SHIP",
+                "DUAL"
+            ]
         },
         {
             "name": "dating with 60hz",
@@ -969,7 +944,8 @@
             "version": 2.1,
             "length": 3,
             "tags": [
-                "60 FPS"
+                "60 FPS",
+                "WAVE"
             ]
         },
         {
@@ -986,11 +962,15 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 22
+            "length": 22,
+            "tags": [
+                "WAVE",
+                "HIGH CPS"
+            ]
         },
         {
             "name": "can i get some eeae",
-            "id": 64316366,
+            "id": 73281875,
             "song": {
                 "nong": false,
                 "name": "Impulse",
@@ -1002,7 +982,11 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 6
+            "length": 6,
+            "tags": [
+                "WAVE",
+                "CUBE"
+            ]
         },
         {
             "name": "happy wave",
@@ -1018,7 +1002,11 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 8
+            "length": 8,
+            "tags": [
+                "WAVE",
+                "CONSISTENCY"
+            ]
         },
         {
             "name": "gdtw be like",
@@ -1034,7 +1022,12 @@
             ],
             "verifier": "anan111🛺",
             "version": 2.1,
-            "length": 7
+            "length": 7,
+            "tags": [
+                "WAVE",
+                "CUBE",
+                "TIMING"
+            ]
         },
         {
             "name": "hate u",
@@ -1050,7 +1043,11 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 11
+            "length": 11,
+            "tags": [
+                "WAVE",
+                "SHIP"
+            ]
         },
         {
             "name": "stop thinking 3",
@@ -1066,7 +1063,10 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 2
+            "length": 2,
+            "tags": [
+                "WAVE"
+            ]
         },
         {
             "name": "so what now",
@@ -1082,7 +1082,10 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 8
+            "length": 8,
+            "tags": [
+                "WAVE"
+            ]
         },
         {
             "name": "the",
@@ -1098,7 +1101,10 @@
             ],
             "verifier": "Mars",
             "version": 2.1,
-            "length": 1
+            "length": 1,
+            "tags": [
+                "WAVE"
+            ]
         },
         {
             "name": "i hate everytime",
@@ -1114,7 +1120,11 @@
             ],
             "verifier": "anan111🛺",
             "version": 2.1,
-            "length": 6
+            "length": 6,
+            "tags": [
+                "WAVE",
+                "CONSISTENCY"
+            ]
         },
         {
             "name": "I am at it",
@@ -1130,7 +1140,18 @@
             ],
             "verifier": "蔡龍",
             "version": 2.1,
-            "length": 24
+            "length": 24,
+            "tags": [
+                "CUBE",
+                "SHIP",
+                "UFO",
+                "WAVE",
+                "BALL",
+                "ROBOT",
+                "SPIDER",
+                "DUAL",
+                "TIMING"
+            ]
         },
         {
             "name": "ha2",
@@ -1146,7 +1167,15 @@
             ],
             "verifier": "蔡龍",
             "version": 2.1,
-            "length": 10
+            "length": 10,
+            "tags": [
+                "CUBE",
+                "SHIP",
+                "BALL",
+                "UFO",
+                "SPIDER",
+                "TIMING"
+            ]
         },
         {
             "name": "uwu is dead",
@@ -1162,7 +1191,10 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 26
+            "length": 26,
+            "tags": [
+                "WAVE"
+            ]
         },
         {
             "name": "ballz",
@@ -1178,7 +1210,12 @@
             ],
             "verifier": "Mars",
             "version": 2.1,
-            "length": 7
+            "length": 7,
+            "tags": [
+                "BALL",
+                "TIMING",
+                "SYNC"
+            ]
         },
         {
             "name": "tonikaku yare",
@@ -1194,7 +1231,11 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 16
+            "length": 16,
+            "tags": [
+                "WAVE",
+                "DUAL"
+            ]
         },
         {
             "name": "tonikaku re",
@@ -1210,7 +1251,10 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 16
+            "length": 16,
+            "tags": [
+                "WAVE"
+            ]
         },
         {
             "name": "tonikaku are",
@@ -1226,7 +1270,10 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 13
+            "length": 13,
+            "tags": [
+                "WAVE"
+            ]
         },
         {
             "name": "happy cube",
@@ -1242,7 +1289,11 @@
             ],
             "verifier": "anan111🛺",
             "version": 2.1,
-            "length": 10
+            "length": 10,
+            "tags": [
+                "CUBE",
+                "TIMING"
+            ]
         },
         {
             "name": "wave 7",
@@ -1258,7 +1309,10 @@
             ],
             "verifier": "超大法國麵包🥖",
             "version": 2.1,
-            "length": 6
+            "length": 6,
+            "tags": [
+                "WAVE"
+            ]
         },
         {
             "name": "4x3",
@@ -1276,7 +1330,28 @@
             "version": 2.1,
             "length": 3,
             "tags": [
-                "60 FPS"
+                "60 FPS",
+                "CUBE",
+                "TIMING"
+            ]
+        },
+        {
+            "name": "elharetry is so pro",
+            "id": 62633487,
+            "song": {
+                "nong": false,
+                "name": "Life",
+                "artist": "F-777",
+                "id": 439735
+            },
+            "creator": [
+                "Ruiq♿"
+            ],
+            "verifier": "Ruiq♿",
+            "version": 2.1,
+            "length": 3,
+            "tags": [
+                "WAVE"
             ]
         },
         {
@@ -1289,13 +1364,15 @@
                 "id": 638150
             },
             "creator": [
-                "prostylepancake"
+                "ProStylePancake"
             ],
-            "verifier": "prostylepancake",
+            "verifier": "ProStylePancake",
             "version": 2.2,
             "length": 29,
             "tags": [
-                "CBF"
+                "CBF",
+                "REMOVED",
+                "SHIP"
             ]
         },
         {
@@ -1314,24 +1391,126 @@
             "version": 2.1,
             "length": 14,
             "tags": [
-                "SWIFT"
+                "REMOVED",
+                "CUBE"
             ]
         },
         {
-            "name": "elharetry is so pro",
-            "id": 62633487,
+            "name": "wave XXX",
+            "id": 107844099,
             "song": {
                 "nong": false,
-                "name": "Life",
-                "artist": "F-777",
-                "id": 439735
+                "name": "Holy War",
+                "artist": "BoomKitty",
+                "id": 771703
+            },
+            "creator": [
+                "超大法國麵包🥖"
+            ],
+            "verifier": "超大法國麵包🥖",
+            "version": 2.2,
+            "length": 12,
+            "tags": [
+                "CBF",
+                "REMOVED",
+                "WAVE",
+                "CONSISTENCY",
+                "HIGH CPS",
+                "CUBE"
+            ]
+        },
+        {
+            "name": "SILVER062 Can Clear",
+            "id": 115006142,
+            "song": {
+                "nong": false,
+                "name": "Troglodyte",
+                "artist": "Kaixo",
+                "id": 722594
+            },
+            "creator": [
+                "Mars",
+                "anan111🛺",
+                "超大法國麵包🥖"
+            ],
+            "verifier": "超大法國麵包🥖",
+            "version": 2.2,
+            "length": 8,
+            "tags": [
+                "REMOVED",
+                "WAVE"
+            ]
+        },
+        {
+            "name": "wave3",
+            "id": 65340201,
+            "song": {
+                "nong": false,
+                "name": "Holy War",
+                "artist": "BoomKitty",
+                "id": 771703
+            },
+            "creator": [
+                "超大法國麵包🥖"
+            ],
+            "verifier": "超大法國麵包🥖",
+            "version": 2.1,
+            "length": 2,
+            "tags": [
+                "REMOVED",
+                "WAVE",
+                "CONSISTENCY",
+                "HIGH CPS"
+            ]
+        },
+        {
+            "name": "1x10",
+            "id": 78412311,
+            "song": {
+                "nong": false,
+                "name": "Dropping Fish",
+                "artist": "Xrullor",
+                "id": 494623
+            },
+            "creator": [
+                "超大法國麵包🥖"
+            ],
+            "verifier": "超大法國麵包🥖",
+            "version": 2.1,
+            "length": 7,
+            "tags": [
+                "REMOVED",
+                "WAVE",
+                "CONSISTENCY",
+                "SYNC"
+            ]
+        },
+        {
+            "name": "Jello030 is so pro",
+            "id": 62771736,
+            "song": {
+                "nong": false,
+                "name": "Skystrike",
+                "artist": "Hinkik",
+                "id": 700355
             },
             "creator": [
                 "Ruiq♿"
             ],
             "verifier": "Ruiq♿",
             "version": 2.1,
-            "length": 3
+            "length": 16,
+            "tags": [
+                "REMOVED",
+                "CUBE",
+                "SHIP",
+                "UFO",
+                "ROBOT",
+                "SPIDER",
+                "BALL",
+                "WAVE",
+                "MEMORY"
+            ]
         }
     ]
 }

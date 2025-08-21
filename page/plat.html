@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+  <meta http-equiv='cache-control' content='no-cache'> 
+  <meta http-equiv='expires' content='0'> 
+  <meta http-equiv='pragma' content='no-cache'>
+  <title>GDTW Challenge List</title>
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="/resource/icon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,500,1,0">
+  <base target="_blank">
+</head>
+
+<body id="leaderboard" style="overflow: hidden; overflow-x: hidden;">
+  <div id="menuContainer"></div>
+  <div class="loaderContainer">
+    <div class="loader"></div>
+    <p><br><br>Loading</p>
+  </div>
+  <div class="content leaderboard" style="opacity:0">
+    <div id="list-container" style="flex: 35%;">
+      <div id="list"></div>
+    </div>
+    <span class="leaderboard-border"></span>
+    <div id="detail-container" style="flex: 35%; overflow: visible;">
+      <div id="detail" style="overflow: visible;">
+        <div style='margin: 30px 0 5px 40px; height: 50px; width: 90%; position: relative;'>
+          <h1 id="detail-name" style="text-shadow: 2px 2px 3px var(--bg)"></h1>
+          <img id="thumbnail">
+        </div>
+        <div id="detail-creator" style="text-shadow: 2px 2px 3px var(--bg)"></div>
+        <div id='detail-info' style='margin-left: 30px;'>
+          <span class='title' style='grid-column: 1/2; grid-row: 1/2'>
+            排名
+          </span>
+          <span class='title' style='grid-column: 2/3; grid-row: 1/2'>
+            關卡ID
+          </span>
+          <span class='title' style='grid-column: 3/4; grid-row: 1/2'>
+            分數
+          </span>
+          <span class='title' style='grid-column: 1/4; grid-row: 3/4'>
+            音樂 &nbsp<span style="color: var(--text-note)">[ID]</span>
+          </span>
+          <span id="detail-rank" class='leaderboard-detail-content' style='grid-column: 1/2; grid-row: 2/3'></span>
+          <span id="detail-id" class='leaderboard-detail-content' style='grid-column: 2/3; grid-row: 2/3'></span>
+          <span id="detail-pts" class='leaderboard-detail-content' style='grid-column: 3/4; grid-row: 2/3'></span>
+          <span id="detail-song" class='leaderboard-detail-content' style='grid-column: 1/4; grid-row: 4/5; border: none'></span>
+        </div>
+        <div id="detail-tag"></div>
+        <div id="detail-ratings-container">
+          <div id="detail-ratings-plat">
+            <b title="資料不足" id="ratings-warning">!</b>
+            <div id="ratings-enj" style="grid-column: 1/2; grid-row: 1/5;">
+              <span class="title" style="grid-column: 1/3; grid-row: 1/2; align-self: flex-end; padding-bottom: 10px;">Enjoyment</span>
+              <span id="enj-val" style="grid-column: 1/2; grid-row: 2/3;">50</span>
+              <span style="grid-column: 2/3; grid-row: 2/3; align-self: center; justify-self: start; color: var(--text-note)">
+                &nbsp / &nbsp10
+              </span>
+            </div>
+            <span class="title" style="grid-column: 2/3; grid-row: 1/2; align-self: flex-end;">Ship</span>
+            <div id="ratings-ship" style="grid-column: 2/3; grid-row: 2/3; align-self: center; position: relative;">
+              <span class="skillset" data-deg="0"></span>
+              <span class="rating"></span>
+            </div>
+            <span class="title" style="grid-column: 3/4; grid-row: 1/2; align-self: flex-end;">Precision</span>
+            <div id="ratings-precision" style="grid-column: 3/4; grid-row: 2/3; align-self: center; position: relative;">
+              <span class="skillset" data-deg="0"></span>
+              <span class="rating"></span>
+            </div>
+            <span class="title" style="grid-column: 2/3; grid-row: 3/4; align-self: flex-end;">Speed</span>
+            <div id="ratings-speed" style="grid-column: 2/3; grid-row: 4/5; align-self: center; position: relative;">
+              <span class="skillset" data-deg="0"></span>
+              <span class="rating"></span>
+            </div>
+            <span class="title" style="grid-column: 3/4; grid-row: 3/4; align-self: flex-end;">Learny</span>
+            <div id="ratings-learny" style="grid-column: 3/4; grid-row: 4/5; align-self: center; position: relative;">
+              <span class="skillset" data-deg="0"></span>
+              <span class="rating"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="leaderboard-border" style="border-right-color: var(--bg-contact);"></span>
+    <div id="completion-container" style="flex: 30%;">
+      <div id="completion">
+        <div style='margin: 30px 0 20px 20px; width: 98%; height: 35px;'>
+          <h2 style='margin: 0; width: 150px; float: left'>
+            驗證者
+          </h2>
+        </div>
+        <div id='detail-verifier'></div>
+        <div style='margin: 30px 0 20px 20px; width: 98%; height: 35px;'>
+          <h2 style='margin: 0; width: 150px; float: left;'>
+            通關玩家
+          </h2>
+        </div>
+        <div id='detail-completions'></div>
+      </div>
+    </div>
+  </div>
+  <div class="content leaderboard_mobile" style="opacity:0; position: relative">
+    <div id="list_mobile"></div>
+  </div>
+  <div id="detail-container_mobile">
+    <div id="modal_mobile">
+      <div style="height: 40px;">
+        <span id="modal-close">
+          <span class="material-symbols-outlined" style="color: var(--text-default); font-size: 35px;">
+            close
+          </span>
+        </span>
+      </div>
+      <div id="detail_mobile">
+        <div style='margin: 0 0 0 40px; height: 50px; width: 90%;'>
+          <h1 id="detail-name_mobile"></h1>
+        </div>
+        <div id="detail-creator_mobile"></div>
+        <div id="detail-info_mobile" style='margin-left: 40px;'>
+          <span class='title' style='grid-column: 1/2; grid-row: 1/2'>
+            排名
+          </span>
+          <span class='title' style='grid-column: 2/3; grid-row: 1/2'>
+            關卡ID
+          </span>
+          <span class='title' style='grid-column: 3/4; grid-row: 1/2'>
+            分數
+          </span>
+          <span id="detail-rank_mobile" class='leaderboard-detail-content' style='grid-column: 1/2; grid-row: 2/3'></span>
+          <span id="detail-id_mobile" class='leaderboard-detail-content' style='grid-column: 2/3; grid-row: 2/3'></span>
+          <span id="detail-pts_mobile" class='leaderboard-detail-content' style='grid-column: 3/4; grid-row: 2/3'></span>
+        </div>
+        <div style='margin: 30px 0 20px 40px; width: 98%; height: 35px;'>
+          <h2 style='margin: 0; width: 150px; float: left;'>
+            通關玩家
+          </h2>
+        </div>
+        <div id='detail-completions_mobile'></div>
+      </div>
+    </div>
+  </div>
+  <!-- End -->
+  <address class="addr">
+    Website by Mars
+  </address>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/code/utils.js"></script>
+  <script src="/code/menu.js"></script>
+  <script src="/code/plat.js"></script>
+  <script src="/code/cookie.js"></script>
+</body>
+</html>

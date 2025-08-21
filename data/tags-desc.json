@@ -1,6 +1,7 @@
 {
     "Requirement": {
-        "FPS": ["此挑戰<strong>須</strong>使用", "遊玩"]
+        "FPS": ["此挑戰<strong>須</strong>使用", "遊玩"],
+        "REMOVED": "此挑戰因違規而被移除"
     },
     "Gamemode": {
         "CUBE": "此挑戰含有Cube的Gameplay",
@@ -32,6 +33,7 @@
         "TECH": "此挑戰含有罕見玩法"
     },
     "Others": {
-        "CBF": "此挑戰使用CBF驗證"
+        "CBF": "此挑戰使用CBF驗證",
+        "狗式尾殺": "此挑戰最後一個點擊含變速且顯著較難"
     }
 }

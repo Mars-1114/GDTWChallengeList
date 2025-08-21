@@ -17,7 +17,8 @@
             "version": 2.2,
             "length": 3,
             "tags": [
-                "60 FPS"
+                "60 FPS",
+                "WAVE"
             ]
         },
         {
@@ -36,7 +37,8 @@
             "version": 2.1,
             "length": 2,
             "tags": [
-                "60 FPS"
+                "60 FPS",
+                "WAVE"
             ]
         },
         {
@@ -44,7 +46,7 @@
             "id": 72873990,
             "song": {
                 "nong": false,
-                "name": "Baby Shark (MrKoolTrix Cover + Remix)",
+                "name": "Baby Shark (Remix)",
                 "artist": "MrKoolTrix, PINKFONG",
                 "id": 770478
             },
@@ -55,7 +57,8 @@
             "version": 2.1,
             "length": 2,
             "tags": [
-                "60 FPS"
+                "60 FPS",
+                "WAVE"
             ]
         },
         {
@@ -74,7 +77,8 @@
             "version": 2.1,
             "length": 2,
             "tags": [
-                "60 FPS"
+                "60 FPS",
+                "WAVE"
             ]
         },
         {
@@ -92,7 +96,11 @@
             ],
             "verifier": "anan111🛺",
             "version": 2.2,
-            "length": 1
+            "length": 1,
+            "tags": [
+                "SHIP",
+                "CBF"
+            ]
         },
         {
             "name": "god ball",
@@ -108,7 +116,10 @@
             ],
             "verifier": "anan111🛺",
             "version": 2.1,
-            "length": 2
+            "length": 2,
+            "tags": [
+                "BALL"
+            ]
         },
         {
             "name": "Spammer Overdose",
@@ -124,7 +135,14 @@
             ],
             "verifier": "Nostic",
             "version": 2.1,
-            "length": 12
+            "length": 12,
+            "tags": [
+                "CUBE",
+                "SHIP",
+                "WAVE",
+                "UFO",
+                "BALL"
+            ]
         },
         {
             "name": "spammer overdose v2",
@@ -141,7 +159,10 @@
             ],
             "verifier": "anan111🛺",
             "version": 2.2,
-            "length": 7
+            "length": 7,
+            "tags": [
+                "WAVE"
+            ]
         },
         {
             "name": "Downwards Doge",
@@ -157,7 +178,10 @@
             ],
             "verifier": "蔡龍",
             "version": 2.1,
-            "length": 1
+            "length": 1,
+            "tags": [
+                "WAVE"
+            ]
         },
         {
             "name": "u better get fast v2",
@@ -173,7 +197,10 @@
             ],
             "verifier": "anan111🛺",
             "version": 2.1,
-            "length": 6
+            "length": 6,
+            "tags": [
+                "SPIDER"
+            ]
         },
         {
             "name": "Sound of GGGGGGGGGGG",
@@ -189,7 +216,10 @@
             ],
             "verifier": "Nostic",
             "version": 2.1,
-            "length": 4
+            "length": 4,
+            "tags": [
+                "CUBE"
+            ]
         },
         {
             "name": "oh u know howto pppp",
@@ -205,7 +235,10 @@
             ],
             "verifier": "anan111🛺",
             "version": 2.1,
-            "length": 4
+            "length": 4,
+            "tags": [
+                "CUBE"
+            ]
         },
         {
             "name": "oh u know howto spam",
@@ -221,7 +254,10 @@
             ],
             "verifier": "anan111🛺",
             "version": 2.1,
-            "length": 3
+            "length": 3,
+            "tags": [
+                "CUBE"
+            ]
         },
         {
             "name": "3 min for spamming",
@@ -237,7 +273,10 @@
             ],
             "verifier": "蔡龍",
             "version": 2.1,
-            "length": 3
+            "length": 3,
+            "tags": [
+                "CUBE"
+            ]
         },
         {
             "name": "u better get fast",
@@ -253,7 +292,10 @@
             ],
             "verifier": "anan111🛺",
             "version": 2.1,
-            "length": 1
+            "length": 1,
+            "tags": [
+                "SPIDER"
+            ]
         }
     ]
 }

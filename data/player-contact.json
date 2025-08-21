@@ -81,5 +81,41 @@
             "icon": "anan",
             "username": "anan111"
         }
+    },
+    "NosticUwu": {
+        "left-group": false,
+        "facebook": "https://www.facebook.com/groups/173396940046034/user/100065364821003",
+        "gd": {
+            "icon": "nostic",
+            "username": "nosticdaderg"
+        }
+    },
+    "游任穎": {
+        "left-group": false,
+        "facebook": "https://www.facebook.com/groups/173396940046034/user/100007843362278",
+        "gd": {
+            "icon": "litshark",
+            "username": "LitSharK"
+        }
+    },
+    "Chester": {
+        "left-group": false,
+        "facebook": "https://www.facebook.com/groups/173396940046034/user/100058116792173",
+        "gd": {
+            "icon": "chester",
+            "username": "chester115"
+        }
+    },
+    "心羽の 朵朵可": {
+        "left-group": false,
+        "facebook": "https://www.facebook.com/groups/173396940046034/user/100004210865199"
+    },
+    "relloo": {
+        "left-group": false,
+        "facebook": "https://www.facebook.com/groups/173396940046034/user/100052694442787",
+        "gd": {
+            "icon": "relloo",
+            "username": "relloo"
+        }
     }
 }
