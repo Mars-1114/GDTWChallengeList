@@ -52,10 +52,11 @@ function formatTime(sec) {
     return "-";
   }
   let m = String(Math.floor(sec / 60)).padStart(2, "0");
-  let s = (sec - m * 60).toFixed(3).padStart(6, "0");
+  let s = (sec - m * 60).toFixed(3);
   let str = ""
   if (m != 0) {
     str += m + ":"
+    s = s.padStart(6, "0");
   }
   str += s;
   return str;

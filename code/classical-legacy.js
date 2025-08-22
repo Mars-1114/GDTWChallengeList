@@ -282,12 +282,10 @@ function loadDetails(dID) {
   $("#ratings-cps .rating").html(GetOpinion(lvl, "cps"));
   $("#ratings-learny .rating").html(GetOpinion(lvl, "learny"));
 
+  $("#thumbnail").attr("src", "../resource/img/thumbnail/default.png");
   CheckImage(img_url, function(exist) {
     if (exist) {
         $("#thumbnail").attr("src", img_url);
-    }
-    else {
-        $("#thumbnail").attr("src", "../resource/img/thumbnail/default.png");
     }
   });
 

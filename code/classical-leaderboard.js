@@ -44,7 +44,7 @@ $(document).ajaxStop(function() {
       if (id < 30) {
         player_completion.count[0]++;
       }
-      else {
+      else if (!HasTag("REMOVED", level)) {
         player_completion.count[1]++;
       }
 

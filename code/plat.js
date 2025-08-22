@@ -266,6 +266,7 @@ function listPlayers(players, show_rank = true) {
 
 function loadDetails(dID) {
   let lvl = levels[dID - 1];
+  let img_url = "../resource/img/thumbnail/" + lvl.id + ".jpg";
   
   // load info
   $("#detail-name").html(lvl.name);
@@ -281,7 +282,12 @@ function loadDetails(dID) {
   $("#ratings-speed .rating").html(GetOpinion(lvl, "speed"));
   $("#ratings-learny .rating").html(GetOpinion(lvl, "learny"));
 
-  $("#thumbnail").attr("src", "../resource/img/thumbnail/" + lvl.id + ".jpg");
+  $("#thumbnail").attr("src", "../resource/img/thumbnail/default.png");
+  CheckImage(img_url, function(exist) {
+    if (exist) {
+        $("#thumbnail").attr("src", img_url);
+    }
+  });
 
   $("#detail-tag").html(GetTags(lvl));
 

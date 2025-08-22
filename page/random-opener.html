@@ -2,7 +2,7 @@
 <html>
     <body style="margin: 0; background-color: rgb(70, 37, 65); user-select: none; -webkit-user-select: none;">
         <div id="word" style="text-align: center; line-height: 100vb; width: 100%; height: 100%; font-size: 80px; font-family: 'Courier New', Courier, monospace; font-weight: 700; color: #ff93dd"></div>
-        <div id="date" style="position: absolute; text-align: center; top: 50%; left: 50%; transform: translateY(calc(-50% + 100px)) translateX(-50%); font-size: 20px; font-family: 'Courier New', Courier, monospace; font-weight: 700; color: #ff93dd"></div>
+        <div id="date" style="position: absolute; text-align: center; top: 50%; left: 50%; transform: translateY(calc(-50% + 150px)) translateX(-50%); font-size: 20px; font-family: 'Courier New', Courier, monospace; font-weight: 700; color: #ff93dd"></div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script>
             // read list
@@ -23,7 +23,7 @@
                     let m = String(now.getMinutes()).padStart(2, "0");
                     let s = String(now.getSeconds()).padStart(2, "0");
 
-                    let timestr = Y + "../" + M + "../" + D + ", " + h + ":" + m + ":" + s;
+                    let timestr = Y + "/" + M + "/" + D + ", " + h + ":" + m + ":" + s;
 
                     $("#date").html("生成時間：" + timestr);
                 })
