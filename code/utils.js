@@ -156,18 +156,18 @@ function LoadContact(contact) {
   let str = "";
   if ("youtube" in contact) {
     str += "  <a href='" + contact.youtube + "' style='display: inline-block; margin: 2.5px 5px; height: 45px;'>\
-                <img height='45px' src='/resource/img/yt_color.png'>\
+                <img height='45px' src='../resource/img/yt_color.png'>\
               </a>";
   }
   if ("facebook" in contact) {
     str += "  <a href='" + contact.facebook + "' style='display: inline-block; margin: 2.5px 0; height: 45px;'>\
-                <img height='45px' src='/resource/img/fb_color.png'>\
+                <img height='45px' src='../resource/img/fb_color.png'>\
               </a>";
   }
   if ("gd" in contact) {
     str += "  <span style='position: relative; display: inline-block; width: 50px; text-align: center; top: -2px'>\
                 <a href='https://gdbrowser.com/u/" + contact.gd.username + "' style='display: inline-block; margin: 5px 0; height: 40px;'>\
-                  <img height='40px' src='/resource/icon/" + contact.gd.icon + ".png'>\
+                  <img height='40px' src='../resource/icon/" + contact.gd.icon + ".png'>\
                 </a>";
   }
   return str;
