@@ -272,7 +272,6 @@ function loadDetails(dID) {
   $("#detail-rank").html("#" + dID);
   $("#detail-id").html(lvl.id);
   $("#detail-pts").html(lvl.pts);
-  $("#detail-len").html(lvl.length);
   $("#detail-song").html(LoadSongStr(lvl.song));
   $("#enj-val").html(GetOpinion(lvl, "enjoyment"));
   $("#ratings-ship .rating").html(GetOpinion(lvl, "ship"));

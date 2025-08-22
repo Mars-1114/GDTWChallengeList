@@ -134,7 +134,6 @@ body {
 }
 
 .dropdown-head {
-  padding-right: 5px;
   float: left;
   position: relative;
 }
@@ -589,7 +588,7 @@ address.addr {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 1450px;
 }
 
 #list-container {
@@ -611,7 +610,7 @@ address.addr {
 .leaderboard-border {
   display: inline-block;
   align-self: center;
-  height:75vb;
+  height:500px;
   border-right: solid var(--menu) 4px;
   margin-left: 10px;
   margin-top: 5px;
@@ -763,7 +762,7 @@ address.addr {
 #detail-ratings-container {
   position: absolute;
   width: 89%;
-  bottom: 40px;
+  top: 330px;
   left: calc(50% - 10px);
   transform: translateX(-50%);
 }
@@ -813,6 +812,14 @@ address.addr {
   justify-items: center;
 
   transition: border-color 0.2s, background-color 0.2s;
+}
+
+#detail-song {
+  text-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  scrollbar-color: var(--text-note) transparent;
 }
 
 #ratings-warning {
@@ -1025,7 +1032,14 @@ img {
   100% { transform: rotate(415deg); }
 }
 
-@media all and (max-width: 1100px) {
+/* temporary fix */
+@media all and (max-width: 1450px) {
+  .addr {
+    display: none;
+  }
+}
+
+/*@media all and (max-width: 1100px) {
   .leaderboard {
     display: none;
   }
@@ -1233,4 +1247,4 @@ img {
     margin-right: 5px;
     margin-top: 5px;
   }
-}
+}*/

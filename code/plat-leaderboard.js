@@ -41,7 +41,7 @@ $(document).ajaxStop(function() {
 
     for (var level in players[player]) {
       let id = GetIndex(level);
-      if (id < 30) {
+      if (id < LIST_LEN) {
         player_completion.count[0]++;
       }
       else {

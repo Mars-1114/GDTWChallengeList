@@ -14,7 +14,7 @@
   <base target="_blank">
 </head>
 
-<body id="leaderboard" style="overflow: hidden; overflow-x: hidden;">
+<body id="leaderboard">
   <div id="menuContainer"></div>
   <div class="loaderContainer">
     <div class="loader"></div>
@@ -42,13 +42,17 @@
           <span class='title' style='grid-column: 3/4; grid-row: 1/2'>
             分數
           </span>
-          <span class='title' style='grid-column: 1/4; grid-row: 3/4'>
+          <span class='title' style='grid-column: 1/2; grid-row: 3/4'>
+            長度
+          </span>
+          <span class='title' style='grid-column: 2/4; grid-row: 3/4;'>
             音樂 &nbsp<span style="color: var(--text-note)">[ID]</span>
           </span>
           <span id="detail-rank" class='leaderboard-detail-content' style='grid-column: 1/2; grid-row: 2/3'></span>
           <span id="detail-id" class='leaderboard-detail-content' style='grid-column: 2/3; grid-row: 2/3'></span>
           <span id="detail-pts" class='leaderboard-detail-content' style='grid-column: 3/4; grid-row: 2/3'></span>
-          <span id="detail-song" class='leaderboard-detail-content' style='grid-column: 1/4; grid-row: 4/5; border: none'></span>
+          <span id="detail-len" class='leaderboard-detail-content' style='grid-column: 1/2; grid-row: 4/5; border: none'></span>
+          <span id="detail-song" class='leaderboard-detail-content' style='grid-column: 2/4; grid-row: 4/5; border: none'></span>
         </div>
         <div id="detail-tag"></div>
       </div>
