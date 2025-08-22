@@ -1,9 +1,9 @@
 const LIST_LEN = 10;
 
 let levels_file = "../data/spam-levels.json";
-let players_file = "/data/spam-players.json";
-let contact_file = "/data/player-contact.json";
-let tag_file = "/data/tags-desc.json";
+let players_file = "../data/spam-players.json";
+let contact_file = "../data/player-contact.json";
+let tag_file = "../data/tags-desc.json";
 
 let levels = [];
 let players = {};
