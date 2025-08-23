@@ -267,7 +267,7 @@ function listPlayers(players, show_rank = true) {
 
 function loadDetails(dID) {
   let lvl = levels[dID - 1];
-  let img_url = "/resource/img/thumbnail/" + lvl.id + ".jpg";
+  let img_url = "../resource/img/thumbnail/" + lvl.id + ".jpg";
   
   // load info
   $("#detail-name").html(lvl.name);
@@ -284,7 +284,7 @@ function loadDetails(dID) {
         $("#thumbnail").attr("src", img_url);
     }
     else {
-        $("#thumbnail").attr("src", "/resource/img/thumbnail/default.png");
+        $("#thumbnail").attr("src", "../resource/img/thumbnail/default.png");
     }
   });
 
