@@ -8,6 +8,8 @@ The website mainly consists of 2 lists:
 
 For all list challenges, several **tags** can be seen to indicate basic information about the level, and a **skillset/enjoyment metrics** that is calculated from the opinions of the challenge victors.
 
+[**Website Link**](https://mars-1114.github.io/GDTWChallengeList)
+
 ## Screenshots
 ![challengelist](resource/img/screenshot1.png)  
 ***Level List***
