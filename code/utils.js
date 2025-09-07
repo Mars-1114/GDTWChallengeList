@@ -5,34 +5,32 @@ function FORMULA(n, length) {
   if (n > length) {
     return 0;
   }
-  var N = (150 - 1) / (length - 1) * (n - 1) + 1;
+  let N = (150 - 1) / (length - 1) * (n - 1) + 1;
   return (75.9783 / Math.pow(1.02, N - 50) - 0.4896).toFixed(2);
 }
 
 function setColorOpacity(colorStr, opacity) {
-  if(colorStr.indexOf("rgb(") == 0)
+  if(colorStr.indexOf("rgb(") === 0)
   {
-    var rgbaCol = colorStr.replace("rgb(", "rgba(");
+    let rgbaCol = colorStr.replace("rgb(", "rgba(");
     rgbaCol = rgbaCol.replace(")", ", "+opacity+")");
     return rgbaCol;
   }
 
-  if(colorStr.indexOf("rgba(") == 0)
+  if(colorStr.indexOf("rgba(") === 0)
   {
-    var rgbaCol = colorStr.substr(0, colorStr.lastIndexOf(",")+1) + opacity + ")";
-    return rgbaCol;
+      return colorStr.substr(0, colorStr.lastIndexOf(",") + 1) + opacity + ")";
   }
 
-  if(colorStr.length == 6)
+  if(colorStr.length === 6)
     colorStr = "#" + colorStr;
 
-  if(colorStr.indexOf("#") == 0)
+  if(colorStr.indexOf("#") === 0)
   {
-    var rgbaCol = 'rgba(' + parseInt(colorStr.slice(-6, -4), 16)
+      return 'rgba(' + parseInt(colorStr.slice(-6, -4), 16)
         + ',' + parseInt(colorStr.slice(-4, -2), 16)
         + ',' + parseInt(colorStr.slice(-2), 16)
-        + ','+opacity+')';
-    return rgbaCol;
+        + ',' + opacity + ')';
   }
   return colorStr;
 }
@@ -48,13 +46,13 @@ function formatDate(dateStr) {
  * @param {number} sec 
  */
 function formatTime(sec) {
-  if (sec == 0) {
+  if (sec === 0) {
     return "-";
   }
   let m = String(Math.floor(sec / 60)).padStart(2, "0");
   let s = (sec - m * 60).toFixed(3);
   let str = ""
-  if (m != 0) {
+  if (+m !== 0) {
     str += m + ":"
     s = s.padStart(6, "0");
   }
@@ -74,7 +72,7 @@ function LoadSongStr(song) {
 }
 
 function LoadCreator(creator) {
-  str = "";
+  let str = "";
   for (let i = 0; i < creator.length - 1; i++) {
     str += creator[i] + ", &nbsp";
   }
@@ -128,14 +126,13 @@ function GetCurrentDeg(target) {
   let index = gradientStr.indexOf("deg)");
   let temp = gradientStr.substring(0, index);
   index = temp.lastIndexOf(" ");
-  let deg = +temp.substring(index + 1);
-  return deg;
+  return +temp.substring(index + 1);
 }
 
 /**
  * 
  * @param {string} url 
- * @param {function(bool)} callback 
+ * @param {function(boolean)} callback
  */
 function CheckImage(url, callback) {
     let image = new Image();
@@ -156,18 +153,18 @@ function LoadContact(contact) {
   let str = "";
   if ("youtube" in contact) {
     str += "  <a href='" + contact.youtube + "' style='display: inline-block; margin: 2.5px 5px; height: 45px;'>\
-                <img height='45px' src='../resource/img/yt_color.png'>\
+                <img height='45px' src='../resource/img/yt_color.png' alt=''>\
               </a>";
   }
   if ("facebook" in contact) {
     str += "  <a href='" + contact.facebook + "' style='display: inline-block; margin: 2.5px 0; height: 45px;'>\
-                <img height='45px' src='../resource/img/fb_color.png'>\
+                <img height='45px' src='../resource/img/fb_color.png' alt=''>\
               </a>";
   }
   if ("gd" in contact) {
     str += "  <span style='position: relative; display: inline-block; width: 50px; text-align: center; top: -2px'>\
                 <a href='https://gdbrowser.com/u/" + contact.gd.username + "' style='display: inline-block; margin: 5px 0; height: 40px;'>\
-                  <img height='40px' src='../resource/icon/" + contact.gd.icon + ".png'>\
+                  <img height='40px' src='../resource/icon/" + contact.gd.icon + ".png' alt=''>\
                 </a>";
   }
   return str;
