@@ -1423,5 +1423,15 @@
             "completion_date": "2021-07-15",
             "is_mobile": false
         }
+    },
+    "Yuii": {
+        "72677924": {
+            "video": "https://www.facebook.com/share/v/1BhDJXVzGq/",
+            "completion_date": "2025-11-17",
+            "is_mobile": false,
+            "opinion": {
+                "enjoyment": 8
+            }
+        }
     }
 }
