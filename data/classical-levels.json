@@ -167,27 +167,6 @@
       ]
     },
     {
-      "name": "boogee wa gayru",
-      "id": 76591567,
-      "song": {
-        "nong": false,
-        "name": "Headrush",
-        "artist": "NIGHTkilla",
-        "id": 462046
-      },
-      "creator": [
-        "超大法國麵包🥖"
-      ],
-      "verifier": "超大法國麵包🥖",
-      "version": 2.1,
-      "length": 14,
-      "tags": [
-        "WAVE",
-        "HIGH CPS",
-        "SYNC"
-      ]
-    },
-    {
       "name": "Beyond Fences Buff 2",
       "id": 129744074,
       "song": {
@@ -204,6 +183,30 @@
       "length": 8,
       "tags": [
         "WAVE",
+        "CBF"
+      ]
+    },
+    {
+      "name": "In Monitor",
+      "id": 130386487,
+      "song": {
+        "nong": true,
+        "name": "Monitoring",
+        "artist": "DECO*27",
+        "link": "https://www.youtube.com/watch?v=kbNdx0yqbZE"
+      },
+      "creator": [
+        "超大法國麵包🥖"
+      ],
+      "verifier": "超大法國麵包🥖",
+      "version": 2.2,
+      "length": 18,
+      "tags": [
+        "WAVE",
+        "CUBE",
+        "SHIP",
+        "DUAL",
+        "HIGH CPS",
         "CBF"
       ]
     },
@@ -252,6 +255,27 @@
         "TIMING",
         "SYNC",
         "CBF"
+      ]
+    },
+    {
+      "name": "boogee wa gayru",
+      "id": 76591567,
+      "song": {
+        "nong": false,
+        "name": "Headrush",
+        "artist": "NIGHTkilla",
+        "id": 462046
+      },
+      "creator": [
+        "超大法國麵包🥖"
+      ],
+      "verifier": "超大法國麵包🥖",
+      "version": 2.1,
+      "length": 14,
+      "tags": [
+        "WAVE",
+        "HIGH CPS",
+        "SYNC"
       ]
     },
     {
