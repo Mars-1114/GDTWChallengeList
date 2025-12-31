@@ -1,5 +1,19 @@
 {
     "超大法國麵包🥖": {
+        "130491418": {
+          "video": "https://www.facebook.com/share/v/1EyyAp1qYA/",
+          "completion_date": "2026-01-01",
+          "is_mobile": false,
+          "opinion": {
+            "enjoyment": 8,
+            "wave": 0,
+            "ship": 4.5,
+            "swing": 0,
+            "timing": 4,
+            "cps": 2.5,
+            "learny": 2
+          }
+        },
         "130386487": {
           "video": "https://www.facebook.com/share/v/1KCSb1LvRX/",
           "completion_date": "2025-12-30",
@@ -1004,6 +1018,20 @@
         }
     },
     "Mars": {
+        "118281030": {
+          "video": "https://www.facebook.com/share/v/17NX5YsyS1/",
+          "completion_date": "2025-12-31",
+          "is_mobile": false,
+          "opinion": {
+            "enjoyment": 5,
+            "wave": 0,
+            "ship": 3,
+            "swing": 0,
+            "timing": 2,
+            "cps": 0,
+            "learny": 3
+          }
+        },
         "119560696": {
             "video": "https://www.youtube.com/watch?v=W3knz1Ayocg",
             "completion_date": "2025-05-26",
@@ -1092,6 +1120,20 @@
         }
     },
     "ProStylePancake": {
+        "130491418": {
+          "video": "https://www.facebook.com/share/v/17Jtcy9Paf/",
+          "completion_date": "2025-12-31",
+          "is_mobile": false,
+          "opinion": {
+            "enjoyment": 5,
+            "wave": 0,
+            "ship": 4.4,
+            "swing": 0,
+            "timing": 3.7,
+            "cps": 2,
+            "learny": 2.5
+          }
+        },
         "124047429": {
             "video": "https://www.youtube.com/watch?v=2iCaDGUpm_s",
             "completion_date": "2025-08-03",

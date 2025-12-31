@@ -301,6 +301,28 @@
       ]
     },
     {
+      "name": "Pancake Cant Clear",
+      "id": 130491418,
+      "song": {
+        "nong": false,
+        "name": "Troglodyte",
+        "artist": "Kaixo",
+        "id": 722594
+      },
+      "creator": [
+        "ProStylePancake"
+      ],
+      "verifier": "ProStylePancake",
+      "version": 2.2,
+      "length": 8,
+      "tags": [
+        "SHIP",
+        "CUBE",
+        "TIMING",
+        "狗式尾殺"
+      ]
+    },
+    {
       "name": "sai yin dao",
       "id": 89845209,
       "song": {
@@ -432,31 +454,6 @@
       ]
     },
     {
-      "name": "Pancake maybe clear",
-      "id": 118281030,
-      "song": {
-        "nong": true,
-        "name": "Adios",
-        "artist": "DAZBEE",
-        "link": "https://drive.google.com/file/d/1xH2AIXKfFXUS1xPJFO61YOhRMCHEfWoR"
-      },
-      "creator": [
-        "超大法國麵包🥖"
-      ],
-      "verifier": "超大法國麵包🥖",
-      "version": 2.2,
-      "length": 15,
-      "tags": [
-        "SHIP",
-        "CUBE",
-        "UFO",
-        "TIMING",
-        "SYNC",
-        "PINK",
-        "CBF"
-      ]
-    },
-    {
       "name": "Eeae Redux",
       "id": 118867804,
       "song": {
@@ -576,6 +573,31 @@
         "CUBE",
         "DUAL",
         "TIMING"
+      ]
+    },
+    {
+      "name": "Pancake maybe clear",
+      "id": 118281030,
+      "song": {
+        "nong": true,
+        "name": "Adios",
+        "artist": "DAZBEE",
+        "link": "https://drive.google.com/file/d/1xH2AIXKfFXUS1xPJFO61YOhRMCHEfWoR"
+      },
+      "creator": [
+        "超大法國麵包🥖"
+      ],
+      "verifier": "超大法國麵包🥖",
+      "version": 2.2,
+      "length": 15,
+      "tags": [
+        "SHIP",
+        "CUBE",
+        "UFO",
+        "TIMING",
+        "SYNC",
+        "PINK",
+        "CBF"
       ]
     },
     {
