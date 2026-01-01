@@ -1018,6 +1018,20 @@
         }
     },
     "Mars": {
+        "75237410": {
+          "video": "https://www.facebook.com/share/v/1Kj9azKki3/",
+          "completion_date": "2026-01-01",
+          "is_mobile": false,
+          "opinion": {
+            "enjoyment": 2,
+            "wave": 0.5,
+            "ship": 1,
+            "swing": 0,
+            "timing": 2,
+            "cps": 0,
+            "learny": 1.5
+          }
+        },
         "118281030": {
           "video": "https://www.facebook.com/share/v/17NX5YsyS1/",
           "completion_date": "2025-12-31",
@@ -1369,6 +1383,46 @@
         }
     },
     "InfAstral": {
+      "117935329": {
+        "video": "https://www.facebook.com/share/v/1CuKmqL793/",
+        "completion_date": "2026-01-01",
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 0
+        }
+      },
+      "118281030": {
+        "video": "https://www.facebook.com/share/v/1CuKmqL793/",
+        "completion_date": "2026-01-01",
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 7
+        }
+      },
+      "90848187": {
+        "video": "https://www.facebook.com/share/v/1CuKmqL793/",
+        "completion_date": "2026-01-01",
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 8
+        }
+      },
+      "83287328": {
+        "video": "https://www.facebook.com/share/v/1CuKmqL793/",
+        "completion_date": "2026-01-01",
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 9
+        }
+      },
+        "75237410": {
+            "video": "https://www.facebook.com/share/v/1CuKmqL793/",
+            "completion_date": "2026-01-01",
+            "is_mobile": false,
+            "opinion": {
+              "enjoyment": 9
+            }
+        },
         "119261008": {
             "video": "https://www.facebook.com/share/v/1FUZf7zDYT/",
             "completion_date": "2025-05-20",

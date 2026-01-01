@@ -207,7 +207,8 @@
         "SHIP",
         "DUAL",
         "HIGH CPS",
-        "CBF"
+        "CBF",
+        "PINK"
       ]
     },
     {
@@ -576,6 +577,27 @@
       ]
     },
     {
+      "name": "Lost Umbrella",
+      "id": 117935329,
+      "song": {
+        "nong": true,
+        "name": "Lost Umbrella",
+        "artist": "inabakumori",
+        "link": "https://youtu.be/DeKLpgzh-qQ"
+      },
+      "creator": [
+        "ProStylePancake"
+      ],
+      "verifier": "ProStylePancake",
+      "version": 2.2,
+      "length": 21,
+      "tags": [
+        "BALL",
+        "TIMING",
+        "CBF"
+      ]
+    },
+    {
       "name": "Pancake maybe clear",
       "id": 118281030,
       "song": {
@@ -674,27 +696,6 @@
       ]
     },
     {
-      "name": "Lost Umbrella",
-      "id": 117935329,
-      "song": {
-        "nong": true,
-        "name": "Lost Umbrella",
-        "artist": "inabakumori",
-        "link": "https://youtu.be/DeKLpgzh-qQ"
-      },
-      "creator": [
-        "ProStylePancake"
-      ],
-      "verifier": "ProStylePancake",
-      "version": 2.2,
-      "length": 21,
-      "tags": [
-        "BALL",
-        "TIMING",
-        "CBF"
-      ]
-    },
-    {
       "name": "hiding in the pink",
       "id": 75237410,
       "song": {
@@ -704,7 +705,7 @@
         "id": 1055008
       },
       "creator": [
-        "超大法國麵包🥖"
+        "超大法國麵包🥖", "蔡龍"
       ],
       "verifier": "超大法國麵包🥖",
       "version": 2.1,
