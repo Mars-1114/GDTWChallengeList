@@ -531,6 +531,27 @@
       ]
     },
     {
+      "name": "Probably Straight",
+      "id": 115651663,
+      "song": {
+        "nong": false,
+        "name": "-ThunderZone v2-",
+        "artist": "Waterflame",
+        "id": 638150
+      },
+      "creator": [
+        "ProStylePancake"
+      ],
+      "verifier": "ProStylePancake",
+      "version": 2.2,
+      "length": 29,
+      "tags": [
+        "CBF",
+        "SHIP",
+        "BALL"
+      ]
+    },
+    {
       "name": "sai yin wei",
       "id": 88784612,
       "song": {
@@ -550,30 +571,6 @@
         "UFO",
         "TIMING",
         "SYNC"
-      ]
-    },
-    {
-      "name": "xxoo xoxo",
-      "id": 72559349,
-      "song": {
-        "nong": false,
-        "name": "xo (Eden Cover & Remake)",
-        "artist": "Aaron Musslewhite, EDEN",
-        "id": 766165
-      },
-      "creator": [
-        "蔡龍"
-      ],
-      "verifier": "蔡龍",
-      "version": 2.1,
-      "length": 17,
-      "tags": [
-        "OLD SWING",
-        "ROBOT",
-        "SHIP",
-        "CUBE",
-        "DUAL",
-        "TIMING"
       ]
     },
     {
@@ -620,6 +617,30 @@
         "SYNC",
         "PINK",
         "CBF"
+      ]
+    },
+    {
+      "name": "xxoo xoxo",
+      "id": 72559349,
+      "song": {
+        "nong": false,
+        "name": "xo (Eden Cover & Remake)",
+        "artist": "Aaron Musslewhite, EDEN",
+        "id": 766165
+      },
+      "creator": [
+        "蔡龍"
+      ],
+      "verifier": "蔡龍",
+      "version": 2.1,
+      "length": 17,
+      "tags": [
+        "OLD SWING",
+        "ROBOT",
+        "SHIP",
+        "CUBE",
+        "DUAL",
+        "TIMING"
       ]
     },
     {
@@ -1418,27 +1439,6 @@
       "length": 3,
       "tags": [
         "WAVE"
-      ]
-    },
-    {
-      "name": "Probably Straight",
-      "id": 115651663,
-      "song": {
-        "nong": false,
-        "name": "-ThunderZone v2-",
-        "artist": "Waterflame",
-        "id": 638150
-      },
-      "creator": [
-        "ProStylePancake"
-      ],
-      "verifier": "ProStylePancake",
-      "version": 2.2,
-      "length": 29,
-      "tags": [
-        "CBF",
-        "REMOVED",
-        "SHIP"
       ]
     },
     {
