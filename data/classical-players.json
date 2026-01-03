@@ -1023,6 +1023,20 @@
         }
     },
     "Mars": {
+      "73422029": {
+        "video": "https://www.facebook.com/share/v/1G4dvEFK4C/",
+        "completion_date": "2026-01-03",
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 7,
+          "wave": 4,
+          "ship": 0.1,
+          "swing": 0,
+          "timing": 1.5,
+          "cps": 2,
+          "learny": 1
+        }
+      },
       "83287328": {
         "video": "https://www.facebook.com/share/v/17QHdzB6ui/",
         "completion_date": "2026-01-02",
