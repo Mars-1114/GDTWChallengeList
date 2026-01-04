@@ -1416,12 +1416,60 @@
         }
     },
     "InfAstral": {
+      "73422029": {
+        "video": "https://www.facebook.com/share/v/1NfCqupsVN/",
+        "completion_date": "2026-01-04",
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 7.5,
+          "wave": 4,
+          "ship": 0.5,
+          "swing": 0,
+          "timing": 4.5,
+          "cps": 1.5,
+          "learny": 0
+        }
+      },
+      "118619383": {
+        "video": "https://www.facebook.com/share/v/1NfCqupsVN/",
+        "completion_date": "2026-01-04",
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 9.5,
+          "wave": 5,
+          "ship": 4,
+          "swing": 0,
+          "timing": 5,
+          "cps": 1,
+          "learny": 3
+        }
+      },
+      "72559349": {
+        "video": "https://www.facebook.com/share/v/1NfCqupsVN/",
+        "completion_date": "2026-01-04",
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 10,
+          "wave": 0,
+          "ship": 0,
+          "swing": 4,
+          "timing": 1.5,
+          "cps": 0.5,
+          "learny": 1
+        }
+      },
       "117935329": {
         "video": "https://www.facebook.com/share/v/1CuKmqL793/",
         "completion_date": "2026-01-01",
         "is_mobile": false,
         "opinion": {
-          "enjoyment": 0
+          "enjoyment": 0,
+          "wave": 0,
+          "ship": 0,
+          "swing": 0,
+          "timing": 5,
+          "cps": 1,
+          "learny": 3
         }
       },
       "118281030": {
@@ -1429,7 +1477,13 @@
         "completion_date": "2026-01-01",
         "is_mobile": false,
         "opinion": {
-          "enjoyment": 7
+          "enjoyment": 7,
+          "wave": 0,
+          "ship": 3.5,
+          "swing": 0,
+          "timing": 5,
+          "cps": 0,
+          "learny": 3.5
         }
       },
       "90848187": {
@@ -1437,7 +1491,13 @@
         "completion_date": "2026-01-01",
         "is_mobile": false,
         "opinion": {
-          "enjoyment": 8
+          "enjoyment": 8,
+          "wave": 4.5,
+          "ship": 0,
+          "swing": 0,
+          "timing": 0.5,
+          "cps": 0.5,
+          "learny": 1.5
         }
       },
       "83287328": {
@@ -1445,7 +1505,13 @@
         "completion_date": "2026-01-01",
         "is_mobile": false,
         "opinion": {
-          "enjoyment": 9
+          "enjoyment": 9,
+          "wave": 3.5,
+          "ship": 0,
+          "swing": 0,
+          "timing": 1,
+          "cps": 2,
+          "learny": 1
         }
       },
         "75237410": {
@@ -1453,7 +1519,13 @@
             "completion_date": "2026-01-01",
             "is_mobile": false,
             "opinion": {
-              "enjoyment": 9
+              "enjoyment": 9,
+              "wave": 2.5,
+              "ship": 2.5,
+              "swing": 0,
+              "timing": 3.5,
+              "cps": 2,
+              "learny": 2.5
             }
         },
         "119261008": {
