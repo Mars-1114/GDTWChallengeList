@@ -140,6 +140,31 @@
       ]
     },
     {
+      "name": "GABU",
+      "id": 130568488,
+      "song": {
+        "nong": false,
+        "name": "FEAR;life",
+        "artist": "Cloudier",
+        "id": 866877
+      },
+      "creator": [
+        "Gabu"
+      ],
+      "verifier": "Gabu",
+      "version": 2.2,
+      "length": 26,
+      "tags": [
+        "WAVE",
+        "SHIP",
+        "UFO",
+        "SPIDER",
+        "DUAL",
+        "TIMING",
+        "SYNC"
+      ]
+    },
+    {
       "name": "A4 stone turi ip ip",
       "id": 116851015,
       "song": {
@@ -515,7 +540,7 @@
       },
       "creator": [
         "anan111🛺",
-        "gabu"
+        "Gabu"
       ],
       "verifier": "anan111🛺",
       "version": 2.1,

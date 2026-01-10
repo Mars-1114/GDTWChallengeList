@@ -1,5 +1,19 @@
 {
     "超大法國麵包🥖": {
+      "130568488": {
+        "video": "https://www.facebook.com/share/v/1TfVvrNUuM/",
+        "completion_date": "2026-01-10",
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 0,
+          "wave": 4.5,
+          "ship": 2,
+          "swing": 0,
+          "timing": 4.5,
+          "cps": 2,
+          "learny": 4
+        }
+      },
         "130491418": {
           "video": "https://www.facebook.com/share/v/1EyyAp1qYA/",
           "completion_date": "2026-01-01",
@@ -1675,5 +1689,21 @@
             "enjoyment": 9
           }
         }
+    },
+  "Gabu": {
+    "130568488": {
+      "video": "https://www.facebook.com/share/v/1ASkPobmVx/",
+      "completion_date": "2026-01-01",
+      "is_mobile": false,
+      "opinion": {
+        "enjoyment": 8,
+        "wave": 4,
+        "ship": 2,
+        "swing": 0,
+        "timing": 2,
+        "cps": 0,
+        "learny": 3
+      }
     }
+  }
 }
