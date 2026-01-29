@@ -82,6 +82,24 @@
             "tags": [
                 "CUBE"
             ]
-        }
+        },
+      {
+        "name": "moon",
+        "id": 116751140,
+        "song": {
+          "nong": false,
+          "name": "The Secret Cave",
+          "artist": "Cyberwave Orchestra",
+          "id": 10002875
+        },
+        "creator": [
+          "relloo"
+        ],
+        "verifier": "relloo",
+        "version": 2.2,
+        "tags": [
+          "CUBE"
+        ]
+      }
     ]
 }
