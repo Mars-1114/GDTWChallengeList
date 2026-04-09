@@ -1,5 +1,19 @@
 {
     "超大法國麵包🥖": {
+      "137003014": {
+        "video": "https://www.facebook.com/share/v/1CHjoqd7av/",
+        "completion_date": "2026-04-03",
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 2,
+          "wave": 3,
+          "ship": 4.5,
+          "swing": 0,
+          "timing": 3,
+          "cps": 1,
+          "learny": 2
+        }
+      },
       "130568488": {
         "video": "https://www.facebook.com/share/v/1TfVvrNUuM/",
         "completion_date": "2026-01-10",
@@ -1181,6 +1195,11 @@
         }
     },
     "ProStylePancake": {
+      "137003014": {
+        "video": "https://www.facebook.com/share/v/1CpahmZc5R/",
+        "completion_date": "2026-03-31",
+        "is_mobile": false
+      },
       "118619383": {
         "video": "https://www.facebook.com/share/v/1AS4XAsCf7/",
         "completion_date": "2026-01-20",
