@@ -143,19 +143,40 @@
         "video": "https://www.facebook.com/share/v/19JNpaJUAn/",
         "completion_date": "2026-07-18",
         "completion_time": 15.350,
-        "is_mobile": false
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 6,
+          "ship": 1,
+          "precision": 0.5,
+          "speed": 0,
+          "learny": 0
+        }
       },
       "144991711": {
         "video": "https://www.facebook.com/share/v/18y3ipnFN1/",
         "completion_date": "2026-07-17",
         "completion_time": 7.708,
-        "is_mobile": false
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 5,
+          "ship": 0,
+          "precision": 2.5,
+          "speed": 0,
+          "learny": 0
+        }
       },
       "145005265": {
         "video": "https://www.facebook.com/share/v/1DLCDrxxp5/",
         "completion_date": "2026-07-17",
         "completion_time": 14.150,
-        "is_mobile": false
+        "is_mobile": false,
+        "opinion": {
+          "enjoyment": 7.5,
+          "ship": 0.6,
+          "precision": 2,
+          "speed": 0.3,
+          "learny": 0.3
+        }
       },
       "136034657": {
         "video": "https://www.facebook.com/share/v/1BvTtGfG8Y/",
